@@ -414,7 +414,14 @@ for person in kg.get('people', []):
 
 # Phil Trans corpus — special spanning node (no single year)
 if any(s['id'] == 'src_phil_trans_corpus' for s in kg.get('sources', [])):
-    corpus_x = year_x.get(1750, (display_years[0]+display_years[-1])//2*x_spacing) if display_years else 0
+    # Place near the middle of the timeline. year_x maps year->x position;
+    # if 1750 isn't a display year, fall back to the average of existing x values.
+    if 1750 in year_x:
+        corpus_x = year_x[1750]
+    elif year_x:
+        corpus_x = sum(year_x.values()) / len(year_x)
+    else:
+        corpus_x = 0
     nodes.append({
         'id': 'src_phil_trans_corpus',
         'label': 'PHIL TRANS\n1665–1869',
