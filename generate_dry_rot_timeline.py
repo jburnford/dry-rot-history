@@ -848,7 +848,8 @@ html = f'''<!DOCTYPE html>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dry Rot Knowledge Graph - Temporal View</title>
-    <script src="vis-network.min.js"></script>
+    <script src="vis-network.min.js"
+        onerror="document.getElementById('boot-error') && (document.getElementById('boot-error').textContent = 'FAILED to load vis-network.min.js'); window.__visLoadFailed = true;"></script>
     <style>
         * {{ margin: 0; padding: 0; box-sizing: border-box; }}
         html, body {{
@@ -958,6 +959,7 @@ html = f'''<!DOCTYPE html>
     </div>
     <div class="main-container">
         <div class="network-panel">
+            <div id="boot-error" style="position:absolute;top:10px;left:10px;right:10px;padding:12px;background:#7c2d12;color:#fff;font-family:monospace;font-size:12px;white-space:pre-wrap;z-index:9999;border-radius:4px;display:none;"></div>
             <div id="network"></div>
         </div>
         <div class="sidebar">
@@ -1018,13 +1020,29 @@ html = f'''<!DOCTYPE html>
         </div>
     </div>
     <script>
+        function showBootError(msg) {{
+            const el = document.getElementById('boot-error');
+            if (el) {{ el.style.display = 'block'; el.textContent = msg; }}
+            console.error(msg);
+        }}
+        window.addEventListener('error', function(e) {{
+            showBootError('JS ERROR: ' + (e.message || e.error || 'unknown') + '\\nat ' + (e.filename || '?') + ':' + (e.lineno || '?'));
+        }});
+        if (typeof vis === 'undefined') {{
+            showBootError('vis-network library did not load. Check that vis-network.min.js is in the same directory as index.html, or that the network connection allows it.');
+        }}
+
         const networkNodes = {json.dumps(nodes)};
         const networkEdges = {json.dumps(edges)};
+        console.log('[dry-rot] loaded', networkNodes.length, 'nodes,', networkEdges.length, 'edges');
+
         const nodes = new vis.DataSet(networkNodes);
         const edges = new vis.DataSet(networkEdges);
         let physicsEnabled = true;
 
-        const network = new vis.Network(document.getElementById('network'), {{ nodes, edges }}, {{
+        let network;
+        try {{
+        network = new vis.Network(document.getElementById('network'), {{ nodes, edges }}, {{
             nodes: {{
                 font: {{ color: '#ffffff', size: 10 }},
                 borderWidth: 2
@@ -1052,6 +1070,11 @@ html = f'''<!DOCTYPE html>
                 dragNodes: true
             }}
         }});
+        console.log('[dry-rot] network created');
+        }} catch (err) {{
+            showBootError('Failed to create vis.Network: ' + err.message + '\\n' + err.stack);
+            throw err;
+        }}
 
         const MIN_PERSON_Y = 150;
         const MIN_BIO_Y = 500;
