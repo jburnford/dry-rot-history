@@ -841,7 +841,7 @@ html = f'''<!DOCTYPE html>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dry Rot Knowledge Graph - Temporal View</title>
-    <script src="https://unpkg.com/vis-network@9.1.2/standalone/umd/vis-network.min.js"></script>
+    <script src="vis-network.min.js"></script>
     <style>
         * {{ margin: 0; padding: 0; box-sizing: border-box; }}
         html, body {{
@@ -1106,10 +1106,12 @@ html = f'''<!DOCTYPE html>
 </body>
 </html>'''
 
-with open('dry-rot-timeline.html', 'w') as f:
+os.makedirs('docs', exist_ok=True)
+out_path = os.path.join('docs', 'index.html')
+with open(out_path, 'w') as f:
     f.write(html)
 
-print(f"Generated dry-rot-timeline.html")
+print(f"Generated {out_path}")
 print(f"  {n_years} years, {n_people} people, {n_sources} sources, {n_events} events")
 print(f"  {len(edges)} edges")
 print(f"  Year range: {display_years[0]}-{display_years[-1]}")
