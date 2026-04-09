@@ -235,36 +235,48 @@
         const MIN_PERSON_Y = 150;
         const MIN_BIO_Y = 500;
         const PUSH_STRENGTH = 0.5;
+        let beforeDrawingErrors = 0;
         network.on('beforeDrawing', function(ctx) {
-            nodes.forEach(function(node) {
-                if (node.nodeType === 'year') return;
-                const pos = network.getPosition(node.id);
-                if (node.nodeType === 'rot_type' || node.nodeType === 'fungus') {
-                    // Push rot/fungi nodes toward bottom
-                    if (pos.y < MIN_BIO_Y) {
-                        const newY = pos.y + (MIN_BIO_Y - pos.y) * PUSH_STRENGTH;
-                        network.moveNode(node.id, pos.x, newY);
+            try {
+                nodes.forEach(function(node) {
+                    if (node.nodeType === 'year') return;
+                    const pos = network.getPosition(node.id);
+                    if (!pos || typeof pos.y !== 'number') return;
+                    if (node.nodeType === 'rot_type' || node.nodeType === 'fungus') {
+                        if (pos.y < MIN_BIO_Y) {
+                            const newY = pos.y + (MIN_BIO_Y - pos.y) * PUSH_STRENGTH;
+                            network.moveNode(node.id, pos.x, newY);
+                        }
+                    } else {
+                        if (pos.y < MIN_PERSON_Y) {
+                            const newY = pos.y + (MIN_PERSON_Y - pos.y) * PUSH_STRENGTH;
+                            network.moveNode(node.id, pos.x, newY);
+                        }
                     }
-                } else {
-                    if (pos.y < MIN_PERSON_Y) {
-                        const newY = pos.y + (MIN_PERSON_Y - pos.y) * PUSH_STRENGTH;
-                        network.moveNode(node.id, pos.x, newY);
-                    }
+                });
+            } catch (err) {
+                if (beforeDrawingErrors++ < 1) {
+                    showBootError('beforeDrawing error: ' + err.message + '\n' + (err.stack || ''));
                 }
-            });
+            }
         });
 
         network.on('stabilizationIterationsDone', function() {
-            network.setOptions({
-                physics: {
-                    barnesHut: {
-                        gravitationalConstant: -2000,
-                        centralGravity: 0.005,
-                        springConstant: 0.04,
-                        damping: 0.6
+            try {
+                console.log('[dry-rot] stabilization done');
+                network.setOptions({
+                    physics: {
+                        barnesHut: {
+                            gravitationalConstant: -2000,
+                            centralGravity: 0.005,
+                            springConstant: 0.04,
+                            damping: 0.6
+                        }
                     }
-                }
-            });
+                });
+            } catch (err) {
+                showBootError('stabilizationIterationsDone error: ' + err.message + '\n' + (err.stack || ''));
+            }
         });
 
         network.on('click', function(params) {
