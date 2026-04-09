@@ -1658,14 +1658,14 @@
       "dry_rot_connection": "The single most important independent eyewitness account of Serpula lacrymans fruiting bodies on a warship. The 'orange and brown coloured fungi hanging in the shape of inverted cones from deck to deck' matches Sowerby's 1797 description of B. lachrymans exactly ('colour varies from yellow to orange, or a bright red brown... hanging in inverted cones'). This is NOT circular with Sowerby — NAUTICUS is describing what he saw at Woolwich c.1798, 14 years before Sowerby's QC inspection. The between-decks location (deck to deck) and the pitch-pine substrate confirm the spatial model: Serpula in the damp pine zone between decks."
     },
     {
-      "id": "src_knowles_1821",
+      "id": "src_bowden_1815",
       "identifier": null,
       "title": "A Treatise on Dry Rot",
       "authors": ["Bowden"],
       "year": 1815,
       "evidence_type": "dry_rot_treatise",
       "relevance": "direct",
-      "notes": "One of three dry rot books published in 1815 — peak of crisis literature.",
+      "notes": "One of three dry rot books published in 1815 — peak of crisis literature. NB: this entry was previously mis-IDed as src_knowles_1821, colliding with the real Knowles 1821 Inquiry below and breaking the visualization with a duplicate-id error.",
       "status": "not_yet_read"
     },
     {
