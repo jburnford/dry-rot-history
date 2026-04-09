@@ -1,0 +1,23 @@
+.env
+transcribe_config.json
+
+# Copyrighted material — excluded from version control
+lambert_olmocr.md
+*lambert*
+
+# Source PDFs — keep local only (large; available from Internet Archive / NHM)
+*.pdf
+
+# WSL / Dropbox metadata sidecars
+*:Zone.Identifier
+*:com.dropbox.attrs
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

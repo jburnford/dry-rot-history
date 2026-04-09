@@ -1,0 +1,994 @@
+doc_id,entity_text,entity_type
+B95_-_Commisioner_of_the_Royal_Navy_p001,Plymouth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p001,Lambeth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p001,F.J. Hartwell,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p001,H Legge,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p001,T.B. Thomson,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p001,Navy Office,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p002,Lambeth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p002,H M Service,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p003,Lambeth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p003,R A Nelson,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p003,Navy Office,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p004,SOHO?,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p004,Lambeth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p004,James Sowerby Esq^r.,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p004,Navy Office,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p005,Deptford,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p005,Smith's Cinders,COMMODITY
+B95_-_Commisioner_of_the_Royal_Navy_p005,Commissioner Cunningham,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p005,T.B. Thompson,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p005,F.T. Hartwell,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p005,H Legge,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p005,James Sowerby Esq^r,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p006,SOHO?,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p006,Lambeth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p006,James Sowerby Esq^r.,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p006,Navy Office,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p007,James Sowerby Esq^r.,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p007,Navy Office,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p008,Plymouth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p008,T.B. Thompson,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p008,R. Seppings,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p008,H Legge,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p010,M^r Seppings,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p010,salt,COMMODITY
+B95_-_Commisioner_of_the_Royal_Navy_p011,Ja.^s Sowerby,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p011,Lords of the Admiralty,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p013,Plymouth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p013,Portsmouth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p013,Mr. Nelson,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p013,Mr. Lukin,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p013,Honourable Commissioners of H. M. Navy,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p014,Mr. Parkers,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p014,Lords of the Admiralty,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p015,Deptford,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p015,Woolwich,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p015,Commissioner Seppings,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p016,Deptford,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p016,Lambeth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p018,Lambeth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p018,Ja^s Sowerby Esq^r,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p018,Navy Office,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p001,Plymouth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p001,Lambeth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p001,F.J. Hartwell,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p001,H Legge,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p001,T.B. Thomson,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p001,Navy Office,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p002,Lambeth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p002,H M Service,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p003,Lambeth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p003,R A Nelson,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p003,Navy Office,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p022,F. J. Hartwell,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p022,R. Seppings,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p023,G^t Windsor Park,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p023,Lambeth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p023,Mr Jones,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p023,Mr. Hausmann,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p023,Jas Sowerby,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p024,Lambeth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p024,James Sowerby Esq^r,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p024,Navy Office,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p025,Lambeth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p025,Windsor great Park,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p025,F. J. Hartwell,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p025,W. Rule,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p025,H Legge,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p025,James Sowerby Esq^r,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p025,J. Hausmann,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p025,Navy Office,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p026,Mr M Barkers,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p027,James Sowerby,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p027,Navy Office,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p028,Leith,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p028,Lambeth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p028,F. J. Hartwell,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p028,W. Rule,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p028,H Legge,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p028,James Sowerby Esq^r,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p029,Oak Timber,COMMODITY
+B95_-_Commisioner_of_the_Royal_Navy_p029,His Majesty's Navy,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p030,Leith,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p030,J. M. Parker,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p030,Little Carron Colour Works,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p031,Mr Madgshon,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p031,Chatham Yard,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p033,F. J. Hartwell,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p033,T B Thomson,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p034,Mead's Place,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p034,Lambeth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p034,Mr Sowerby,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p035,Lambeth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p035,Surrey,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p035,Mr. G. B. Sowerby,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p036,Plymouth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p036,Mr Lukin,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p001,Plymouth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p001,Lambeth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p001,F.J. Hartwell,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p001,H Legge,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p001,T.B. Thomson,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p001,Navy Office,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p002,Lambeth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p002,H M Service,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p003,Lambeth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p003,R A Nelson,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p003,Navy Office,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p001,Plymouth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p001,Lambeth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p001,F.J. Hartwell,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p001,H Legge,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p001,T.B. Thomson,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p001,Navy Office,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p002,Lambeth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p002,H M Service,ORGANIZATION
+B95_-_Commisioner_of_the_Royal_Navy_p003,Lambeth,TOPONYM
+B95_-_Commisioner_of_the_Royal_Navy_p003,R A Nelson,PERSON
+B95_-_Commisioner_of_the_Royal_Navy_p003,Navy Office,ORGANIZATION
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p002",M^r Seppings,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p002",Navy Board,ORGANIZATION
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p003",London,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p003",M^r Rackett,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p003",John Knowles,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p003",Admiralty,ORGANIZATION
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p003",Navy Office,ORGANIZATION
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p004",Plymouth,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p004",Weymouth,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p004",Sir William Rule,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p004",Navy Office,ORGANIZATION
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p005",America,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p005",Plymouth,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p005",Boletus,COMMODITY
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p005",Pitch-pine,COMMODITY
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p005",English Oak,COMMODITY
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p005",Mr. Lukin,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p006",John Knowles,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p007",M^r Lukins,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p007",Admiralty Board,ORGANIZATION
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p008",John Knowles,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p008",Navy Board,ORGANIZATION
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p008",Navy Office,ORGANIZATION
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p009",Lambeth,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p009",James Sowerby Esq^r,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p010",Plymouth,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p010",Sir W^m Rule,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p010",J Knowles,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p010",Navy Office,ORGANIZATION
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p012",Plymouth,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p012",Deptford,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p012",Woolwich,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p012",Mr Lukin,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p013",Vigo,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p013",brimstone,COMMODITY
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p013",Matches,COMMODITY
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p013",M^r Seppings,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p013",M^r Lukins,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p013",J Knowles,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p013",Jas Sowerby,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p013",Navy Office,ORGANIZATION
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p014",Lambeth,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p014",Mead Place,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p014",James Sowerby Esq^r,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p014",J Knowles,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p015",M^r Seppings,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p015",Navy Board,ORGANIZATION
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p016",Ja^s Sowerby,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p016",John Knowles Esq,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p016",Navy Office,ORGANIZATION
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p018",Navy Board,ORGANIZATION
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p019",J Knowles,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p019",Navy Office,ORGANIZATION
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p020",Mead Place,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p020",Surry Road,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p020",James Sowerby Esq^r,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p021",Navy Board,ORGANIZATION
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p022",Navy Office,ORGANIZATION
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p023",Soho,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p023",Lambeth,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p023",James Sowerby Esq^r,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p024",M^r Seppings,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p024",JKnowles,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p024",Navy Office,ORGANIZATION
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p025",Col. Pafford,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p025",Mr Spounds,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p026",Portsmouth,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p026",Deptford,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p026",charred wood,COMMODITY
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p027",J Knowles,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p027",Navy Office,ORGANIZATION
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p028",Strand,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p028",Mead Place,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p028",Lambeth,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p028",James Sowerby Esq^r,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p029",New Forest,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p029",John Knowles,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p029",Navy Office,ORGANIZATION
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p030",Lambeth,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p030",James Sowerby Esq^r,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p031",Mr Seppings,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p031",John Knowles,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p031",Navy Office,ORGANIZATION
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p032",Deptford,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p032",Ja^s Sowerby,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p032",Jn^o Knowles Esq^r,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p033",Lambeth,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p033",Ja^s Sowerby,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p033",Jn^o Knowles Esq^r,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p037",J. Knowles Esq^r.,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p037",J. Sowerby,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p038",Commis^r Cunningham,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p038",J. Sowerby,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p039",Deptford,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p039",Woolwich,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p039",Com^r Cunningham,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p039",J. Knowles Esq^r.,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p039",J. Sowerby,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p002",M^r Seppings,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p002",Navy Board,ORGANIZATION
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p003",London,TOPONYM
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p003",M^r Rackett,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p003",John Knowles,PERSON
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p003",Admiralty,ORGANIZATION
+"B95_-_J._Knowles_(Navy_Office)_13_+_replies,_1812-1815_p003",Navy Office,ORGANIZATION
+B95_-_Other_dry_rot_correspondence_1812-1815_p001,H. Legge,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p002,Lambeth,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p002,J Sy,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p002,H Legge,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p002,Navy Office,ORGANIZATION
+B95_-_Other_dry_rot_correspondence_1812-1815_p003,Lambeth,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p003,James Sowerby Esq^re,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p001,H. Legge,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p002,Lambeth,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p002,J Sy,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p002,H Legge,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p002,Navy Office,ORGANIZATION
+B95_-_Other_dry_rot_correspondence_1812-1815_p003,Lambeth,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p003,James Sowerby Esq^re,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p007,Deptford,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p007,Lambeth,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p007,C. Cunningham,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p007,Ja^s Sowerby Esq^r.,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p008,Deptford,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p008,Timber,COMMODITY
+B95_-_Other_dry_rot_correspondence_1812-1815_p008,Commissioner Cunningham,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p008,Mr Sowerby,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p008,Mr Stone,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p008,Ja^s Sowerby,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p009,DEPTFORD,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p009,Lambeth,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p009,James Sowerby Esq^r,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p010,Bury Court,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p010,Timber,COMMODITY
+B95_-_Other_dry_rot_correspondence_1812-1815_p010,Fibre of the Wood,COMMODITY
+B95_-_Other_dry_rot_correspondence_1812-1815_p010,Tho^s Edwards,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p011,Mr. Jas. Sowerby,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p012,Lambeth,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p012,London,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p012,James Sowerby Sen^r Esq^r,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p013,London,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p013,Dartmoor,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p013,peat,COMMODITY
+B95_-_Other_dry_rot_correspondence_1812-1815_p014,W^m Elford Leach,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p016,Hayes,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p017,Ja^s Sowerby,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p017,Legge,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p018,Hayes,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p001,H. Legge,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p002,Lambeth,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p002,J Sy,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p002,H Legge,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p002,Navy Office,ORGANIZATION
+B95_-_Other_dry_rot_correspondence_1812-1815_p003,Lambeth,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p003,James Sowerby Esq^re,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p022,James Sowerby Esq^re,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p022,Navy Office,ORGANIZATION
+B95_-_Other_dry_rot_correspondence_1812-1815_p023,Mead place,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p023,Mr Sowerby,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p024,American Timber,COMMODITY
+B95_-_Other_dry_rot_correspondence_1812-1815_p024,Queen Charlotte,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p024,L Lukin,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p024,Mr Sowerby,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p025,H. Legge,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p025,His Majesty's Navy,ORGANIZATION
+B95_-_Other_dry_rot_correspondence_1812-1815_p026,Blackfriars Road,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p026,Mr Sowerby,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p027,Deptford Yard,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p027,Timber,COMMODITY
+B95_-_Other_dry_rot_correspondence_1812-1815_p027,Mr Sowerby,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p028,Lambeth,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p028,Surry,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p028,Mr James Sowerby,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p029,Lincoln Inn,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p029,Deptford Yard,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p029,W Stone,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p029,Mr Sowerby,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p030,Lambeth,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p030,Surry,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p030,Mr Sowerby,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p031,Deptford Yard,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p031,Mr Sowerby,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p032,Mr. Sowerby,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p033,Deptford,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p033,Iron,COMMODITY
+B95_-_Other_dry_rot_correspondence_1812-1815_p033,Mr Stone,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p034,Lambeth,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p034,Mr James Sowerby,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p035,Deptford,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p035,Treenails,COMMODITY
+B95_-_Other_dry_rot_correspondence_1812-1815_p035,Oak,COMMODITY
+B95_-_Other_dry_rot_correspondence_1812-1815_p035,Commissioner Cunninghams,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p036,James Sowerby Esq^r,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p037,Oak,COMMODITY
+B95_-_Other_dry_rot_correspondence_1812-1815_p037,W Hore Esq^r,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p038,Telford,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p038,Salton,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p038,Mantell,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p038,Newcomb,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p038,Davey,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p039,16 - Holborn,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p039,Union place,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p039,auricularia melina,COMMODITY
+B95_-_Other_dry_rot_correspondence_1812-1815_p039,Mr Salton,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p040,New Street Shoe Lane,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p040,Lambeth,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p040,Tea,COMMODITY
+B95_-_Other_dry_rot_correspondence_1812-1815_p040,Capt Mantell,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p040,Mr Newcombe,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p040,Mr Sowerby,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p041,Black Heath Hill,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p041,St. Vincents,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p041,Mr. Salton,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p041,Tho. Telford,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p042,Berkley Square,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p042,Jas. Sowerby,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p042,the Marquis of Lansdowne,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p043,Lambeth,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p043,Mr. Sowerby,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p044,Bedford Square,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p044,Oak,COMMODITY
+B95_-_Other_dry_rot_correspondence_1812-1815_p044,John Walker,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p045,Fetter Lane,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p045,Mr. G. Holzbaum,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p045,Mr Knowles,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p045,Mr Knowles Surveyors Office,ORGANIZATION
+B95_-_Other_dry_rot_correspondence_1812-1815_p045,Navy Office,ORGANIZATION
+B95_-_Other_dry_rot_correspondence_1812-1815_p046,Aecidium laceratum,COMMODITY
+B95_-_Other_dry_rot_correspondence_1812-1815_p046,Aecidium cancellatum,COMMODITY
+B95_-_Other_dry_rot_correspondence_1812-1815_p046,Agricultural and Horticultural societies,ORGANIZATION
+B95_-_Other_dry_rot_correspondence_1812-1815_p048,Admiralty,ORGANIZATION
+B95_-_Other_dry_rot_correspondence_1812-1815_p048,Navy Board,ORGANIZATION
+B95_-_Other_dry_rot_correspondence_1812-1815_p049,Mead Place,TOPONYM
+B95_-_Other_dry_rot_correspondence_1812-1815_p049,James Sowerby Esq,PERSON
+B95_-_Other_dry_rot_correspondence_1812-1815_p049,H Legge,PERSON
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p001,Dock,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p001,queen Charlotte,PERSON
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p004,king Charles,PERSON
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p005,wood,COMMODITY
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p009,Glostershire,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p009,Commissioner Latch,PERSON
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p010,Plymouth,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p013,Woolwich dock Y^d,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p013,M^r Lukin,PERSON
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p014,M^r Lukins,PERSON
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p015,Navy Board,ORGANIZATION
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p020,St Domingo,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p023,Mr Lukin,PERSON
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p027,Portsmouth,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p027,Queen Charlotte,PERSON
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p028,France,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p028,Germany,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p030,Tar,COMMODITY
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p030,lamp black,COMMODITY
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p030,green vitriol,COMMODITY
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p036,Iron,COMMODITY
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p037,Oak,COMMODITY
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p038,Dartmoor,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p038,Chelsea,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p038,Oak,COMMODITY
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p038,Foreign Oak,COMMODITY
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p038,Mr Whidbey,PERSON
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p040,Godalming,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p040,Capt Tagh Royale,PERSON
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p041,Lydford,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p041,Winterbourn,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p041,Woodgates,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p041,Salisbury,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p041,Southampton,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p041,Southampton Water,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p041,Portsmouth,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p041,Sandstones,COMMODITY
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p041,graphite,COMMODITY
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p041,Iron stones,COMMODITY
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p042,Lydford bridge,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p042,Dartmore,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p042,morston,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p042,Honiton,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p042,Exeter,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p042,Bridport,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p042,Anomia Ammonites,COMMODITY
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p042,Queen Charlotte,PERSON
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p042,Mr Gills,PERSON
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p043,Greenwich,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p043,woolwich,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p043,Richmond,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p043,Hartford bridge,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p043,Basingstoke,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p043,Andover,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p043,Amesbury,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p043,Deptford,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p043,Wincanton,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p043,Ilchester,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p043,Ilminster,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p043,Honiton,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p043,Exeter,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p043,Chudley,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p043,Ashburton,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p043,Plymton,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p043,Queen Charlotte,PERSON
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p044,New Whitby Dock,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p044,Capt Gill,PERSON
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p001,Dock,TOPONYM
+B96_-_Notebook_of_observations_on_dryrot_aboard_the_ship_Queen_Charlotte_July_1812_p001,queen Charlotte,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p001,Navy Board,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p002,James Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p002,Royal Society,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p003,HMS the Queen Charlotte,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p003,Mahogani Hygrometers,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p004,London,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p004,Ja^s Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p006,London,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p006,Ja^s Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p007,Lambeth,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p007,Surrey,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p007,Sir W^m Rule,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p007,James Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p008,Juncus,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p008,M^r S Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p010,Newcastle,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p010,Newcastle Coal,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p011,Teak,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p012,Pedularia campanulata,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p012,wheat,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p013,Lord heathfield,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p013,Queen Charlotte,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p014,Duke of Bedford,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p015,weymouth,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p015,Rummer,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p018,M^r Jones,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p020,Mr Jones,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p021,Mr Jones,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p021,Lords commissioners of the admiralty,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p022,Pitch pine,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p023,Iron,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p023,mahogany,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p023,Mr Lukin,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p024,Queen Charlotte,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p025,Mr Thompson,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p025,Navy Board,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p027,Hon^ble board of Admiralty,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p028,CORNHILL,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p028,CHARING CROSS,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p030,London,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p030,Ja^s Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p032,Lord Heathfield,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p033,Woolwich,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p033,Timber,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p001,Navy Board,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p002,James Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p002,Royal Society,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p003,HMS the Queen Charlotte,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p003,Mahogani Hygrometers,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p001,Navy Board,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p002,James Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p002,Royal Society,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p003,HMS the Queen Charlotte,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p003,Mahogani Hygrometers,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p040,London,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p040,Ja^s Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p042,Plymouth,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p044,Chemical agents,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p045,Purbeck stone,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p045,Mr Commissioner Cunningham,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p045,Mr Stone,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p045,His Majesty's Navy,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p046,Jas Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p047,Plymouth,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p047,Timber,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p047,Honourable Commissioners of His Majesty's Navy,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p048,Sir Wm Rule,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p048,Mr Knowles,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p048,Jas Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p048,Mr Stone,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p001,Navy Board,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p002,James Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p002,Royal Society,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p003,HMS the Queen Charlotte,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p003,Mahogani Hygrometers,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p001,Navy Board,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p002,James Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p002,Royal Society,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p003,HMS the Queen Charlotte,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p003,Mahogani Hygrometers,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p055,James Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p056,Devon,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p056,Lord Heathfield,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p057,Minerals,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p058,Navy Office,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p060,London,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p060,Ja^s Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p001,Navy Board,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p002,James Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p002,Royal Society,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p003,HMS the Queen Charlotte,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p003,Mahogani Hygrometers,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p064,mahogany,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p064,linseed oil,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p064,vitriol water,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p068,London,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p068,Jas Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p070,sulphuret of Iron vitriol,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p070,allum,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p070,conferva,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p070,pyrites,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p071,Oak,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p073,London,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p073,Ja^s Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p074,Lords Commissioners,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p075,London,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p075,Ja^s Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p077,London,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p077,Ja^s Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p078,Oak Leather,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p079,London,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p079,Ja^s Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p080,London,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p080,tar,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p080,wood,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p080,Ja^s Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p081,diamond,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p081,black carbon,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p082,wood,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p082,hemp,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p082,oil,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p082,paint,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p083,Timber,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p001,Navy Board,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p002,James Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p002,Royal Society,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p003,HMS the Queen Charlotte,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p003,Mahogani Hygrometers,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p088,Plymouth,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p088,London,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p088,Ja^s Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p091,London,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p091,Ja^s Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p093,Mr. Knowles,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p098,Asperula longifolia,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p099,Navy board,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p001,Navy Board,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p002,James Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p002,Royal Society,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p003,HMS the Queen Charlotte,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p003,Mahogani Hygrometers,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p103,vitriol alum,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p103,Lin Soc,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p104,London,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p104,Jas Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p001,Navy Board,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p002,James Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p002,Royal Society,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p109,Plymouth,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p109,Timber,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p110,Xylostroma giganteum,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p110,Boletus Hybridus,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p110,mucor,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p110,Lycoperdon Carpobolus,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p112,Plymouth,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p112,Sir W^m Rule,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p112,Mr Lukin,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p113,London,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p113,Ja^s Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p114,Plymouth,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p114,Deptford,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p114,Woolwich,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p114,Mr Nelson,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p114,Mr Lukin,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p114,Mr Barrows,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p114,Comm^r. Seppings,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p116,London,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p116,Deptford,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p116,Philosophical Soc^y,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p117,Somerset House,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p117,Mr Seppings,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p118,Mead place,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p118,Plymouth,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p118,Portsmouth,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p118,M^r Lukin,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p001,Navy Board,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p002,James Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p002,Royal Society,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p003,HMS the Queen Charlotte,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p003,Mahogani Hygrometers,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p001,Navy Board,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p002,James Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p002,Royal Society,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p003,HMS the Queen Charlotte,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p003,Mahogani Hygrometers,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p131,Mr. Jones,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p132,Duke of Portlands,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p135,Mahogany,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p135,Oak,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p135,Iron,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p135,pitch pine,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p135,Turpentine,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p135,Jas Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p136,London,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p136,Jas Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p138,Woolwich,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p138,Portsmouth,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p138,Plymouth,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p138,Oak,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p138,Jas Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p143,India,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p143,Mr Jones,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p149,Oak,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p149,Mahogany,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p149,Firs,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p149,Iron,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p151,Woolwich,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p151,Portsmouth,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p151,Plymouth,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p151,Oak,COMMODITY
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Soho,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Bloomsbury,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Portland Place,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Soho Square,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Gray's Inn Square,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Islington,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Nassau Street,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Lambeth,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Westminster,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Pimlico,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Hammersmith,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Charing Cross,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Southampton Street,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Adelphi,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Fitzroy Square,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Temple Street,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Whitefriars,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Mr. Fredric Accum,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Edward Biley,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,William Blake,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Anthony Carlisle,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,William Congreve,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Thomas Harrison,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Mr. John Haslam,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Colonel Neville,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Mr. James De Carle Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Mr. George Alderson,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Mr. William Ayrton,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Mr. Robert Banks,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,"Mr. Bramah, Jun.",PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Colonel Brodrick,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Edward Campbell,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Mr. Bracey Clark,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Mr. Thomas Clark,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,John Croft,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Henry Drummond,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,John Dunston,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Richard Duppa,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Samuel Fothergill,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Mr. Spurgeon Farrer,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Mr. Alexander Garden,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Mr. P. Grant,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Joseph Hayes,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p152,Mr. Henry Holmes,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Cambridge,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Cork Street,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Burlington Gardens,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Mile End,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Leman Street,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Goodman's Fields,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Russell Square,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Gerrard Street,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Soho,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Durweston Street,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Portman Square,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Berners Street,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Mead Place,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Lambeth,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Bow,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Bond Street,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Parliament Street,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Tunbridge,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Bucks,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Northampton,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Aberdeen,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,North Britain,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Plymouth Works,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Cardiff,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Wales,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Norwich,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Hartwell,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Asaph,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Offham,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Brighthelmstone,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Carshalton,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Manchester,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Shrewsbury,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,London,TOPONYM
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Gibbes Walker Jordan,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Mr. William Stone Lewis,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Daniel Dering Matthew,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Arthur Noble,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,David Ricardo,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Major Rohdes,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,John Robley,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Mr. Andrew Robertson,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Michael Shepley,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Mr. Richard Smirke,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Mr. James Sowerby,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Mr. Sackville Turner,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Colonel Waxell,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Anthony White,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,John George Children,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Dr. Clark,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Mr. Richard Comfield,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Mr. Charles Grant,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Anthony Hill,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Herbert Newton Jarrett,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,The Rev. Sir George Lee,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Mr. Lloyd,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Thomas Partington,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Jacob Forster Reynolds,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Mr. John Sharpe,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Mr. Young,PERSON
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Lincoln's Inn,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Caius College,ORGANIZATION
+B97_-_Rough_notes_&_drafts..._[1812-1813]_p153,Marlow College,ORGANIZATION
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p001,My Lords Commissioners of the Admiralty,ORGANIZATION
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p002,Plymouth,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p002,Sir W^m Rule,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p003,Timber,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p004,London,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p004,Ja^s Sowerby,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p004,Sir Jos Banks,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p005,Oak,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p005,pine,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p006,London,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p006,Weymouth,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p006,Ja^s Sowerby,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p001,My Lords Commissioners of the Admiralty,ORGANIZATION
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p002,Plymouth,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p002,Sir W^m Rule,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p003,Timber,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p010,Salisbury Cathedral,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p010,Oak,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p010,ebony,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p011,London,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p011,Ja^s Sowerby,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p016,Boletus hybridus giganteus,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p016,Xylostroma,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p016,Boletus lachrymans,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p017,England,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p017,Lord Nelson,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p018,London,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p018,Ja^s Sowerby,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p020,wood,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p021,Iron,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p022,timber,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p024,Mr Seppings,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p025,Timber,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p027,London,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p027,Jas Sowerby,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p028,Wood,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p034,Queen Charlotte,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p037,Iron,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p038,My Lords Commissioners of the Admiralty,ORGANIZATION
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p039,Oak,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p039,Mahogany,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p039,Deal,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p039,Mr. Jones,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p039,Duke of Portlands,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p040,Pitch-pine,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p040,Turpentine,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p041,Fungi,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p041,Dry-rot,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p041,Hon. Gent.^n I duly received yours of the 28^th ult.,ORGANIZATION
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p042,Oxendon Street,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p042,Queen Charlotte,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p042,W. Jones,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p042,Ja^s Sowerby,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p043,Lords Commissioners of the Admiralty,ORGANIZATION
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p044,Plymouth,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p044,Queen Charlotte,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p044,Rev^d Dr. Rennies,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p044,James Sowerby,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p045,Xylostroma simplex,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p045,Xylostroma gigantea,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p045,Oak leather,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p045,Mr. Jones,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p046,Salt,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p048,East India,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p048,Teak,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p048,Mr. Sowerby,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p048,Navy Office,ORGANIZATION
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p049,timber,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p049,Boiled Planks,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p049,Mr Lukin,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p050,pitch pine,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p051,Queen Charlotte,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p052,San Domingo,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p053,Mr. Lukin,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p054,St Domingo,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p054,Mr Lukin,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p056,Plymouth,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p056,King Charles,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p057,Queen Charlotte,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p057,Timber,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p059,Fungi,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p061,timber,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p063,Plymouth,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p063,Timber,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p063,Sir W^m Rule,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p063,Mr Knowles,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p001,My Lords Commissioners of the Admiralty,ORGANIZATION
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p002,Plymouth,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p002,Sir W^m Rule,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p003,Timber,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p067,Timber,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p068,Timber,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p070,Timber,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p071,Oxendon Street,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p071,Mr. Jones,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p072,Bulstrode,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p072,Oak,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p072,Mahogany,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p072,Iron,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p072,Deal,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p073,Lambeth,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p073,Surrey,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p074,Mr Seppings,PERSON
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p075,Deptford,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p075,Timber,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p077,Deptford,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p077,Woolwich,TOPONYM
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p077,wood,COMMODITY
+B98_-_Drafts_and_fair_copies_of_his_reports_on_dry_rot_in_navy_ships_[1813]_-_Fair_copies_in_George_Brellingham's_hand_p078,2 Mead Place,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p001,Mr. J. M. Packers,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p001,Jas: Sowerby,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p002,S^r W^m Rule,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p002,M^r Knowles,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p002,His Majesty's Navy,ORGANIZATION
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p002,My Lords Commissioners of the Admiralty,ORGANIZATION
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p003,Plymouth,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p003,Timber,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p003,Oak,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p004,James Sowerby,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p004,MUSEUM BRITANNICUM,ORGANIZATION
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p005,Lambeth,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p005,Plymouth,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p005,R. A. Nelson,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p005,Sowerby Esq^r,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p005,Mr Lionel Lukin,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p005,F. T. Hartwell,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p005,H. Legge,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p005,T. B. Thompson,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p005,Navy Office,ORGANIZATION
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p006,Timber,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p006,Honourable Commissioners of His Majesty's Navy,ORGANIZATION
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p007,Plymouth,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p007,Timber,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p007,King Charles,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p008,Queen Charlotte,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p008,Boletus hybridus,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p008,Boletus medulla-panis,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p008,Xylostroma giganteum,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p009,Timber,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p009,Mr. Lukin,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p010,Pitch Pine,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p011,San Domingo,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p011,Timber,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p011,Mr. Lukin,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p012,San Domingo,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p012,Mr. Lukin,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p012,Ja^s Sowerby,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p013,Mr. Sowerby,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p013,F. J. Hartwell,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p013,H: Legge,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p013,T. B. Thompson,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p013,Lords Commissioners of the Admiralty,ORGANIZATION
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p014,Leith,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p014,Mead Place,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p014,Lambeth,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p014,Mr. I. M. Parker,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p014,F. J. Hartwell,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p014,Will.^m Rule,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p014,H. Legge.,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p014,Ja^s Sowerby Esq^r,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p014,Navy Office,ORGANIZATION
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p015,Leith,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p015,Oak,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p015,I. M. Parker,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p015,Mr. Madgshon,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p015,His Majesty's Navy,ORGANIZATION
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p015,Masters of Chatham Yard,ORGANIZATION
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p001,Mr. J. M. Packers,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p001,Jas: Sowerby,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p002,S^r W^m Rule,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p002,M^r Knowles,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p002,His Majesty's Navy,ORGANIZATION
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p002,My Lords Commissioners of the Admiralty,ORGANIZATION
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p003,Plymouth,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p003,Timber,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p003,Oak,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p019,Timber,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p020,Timber,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p020,Muskets,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p021,Oxendon Street,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p021,Mr Jones,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p022,Bulstrode,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p022,Timber,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p022,Fungi,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p022,Lycoperdon carpobolus,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p022,"Duke of
+Portlands",PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p023,Lambeth,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p023,Oak,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p023,Mahogany,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p023,Iron,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p023,Deal,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p023,Jas. Sowerby,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p024,Lambeth,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p024,Oxendon Street,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p024,Windsor Great Park,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p024,F. J. Hartwell,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p024,W.^m Rule,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p024,Jas. Sowerby Esq^r,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p024,M.^r Jones,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p024,M.^r Hausmann,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p024,Navy Office,ORGANIZATION
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p024,Honourable Commissioners of His Majestys Navy,ORGANIZATION
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p025,Deptford,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p025,Woolwich,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p025,Lambeth,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p025,F. J. Hartwell,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p025,R. Seppings,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p025,E. Stewart,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p025,Jas. Sowerby Esqr.,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p025,Navy Office,ORGANIZATION
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p026,Timber,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p026,Mr. Seppings,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p026,Commissioners of His Majesty's Navy,ORGANIZATION
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p027,Deptford,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p027,Timber,COMMODITY
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p028,Deptford,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p028,Woolwich,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p029,2 Mead Place,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p029,Jas. Sowerby,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p030,Deptford,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p030,Lambeth,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p030,F. J. Hartwell,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p030,R. Seppings,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p030,H. Legge,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p030,Jas. Sowerby Esq.,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p030,Navy Office,ORGANIZATION
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p030,Deptford Dock Yard,ORGANIZATION
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p031,Lambeth,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p031,Jas. Sowerby,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p031,Honourable Commissioners of His Majesty's Navy,ORGANIZATION
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p031,Lords of the Admiralty,ORGANIZATION
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p032,Plymouth,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p032,Portsmouth,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p032,Mr Lukin,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p032,Mr Parkers,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p033,Deptford,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p033,Woolwich,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p033,Commissioner Seppings,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p034,Plymouth,TOPONYM
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p034,T. B. Thompson,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p034,R. Seppings,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p034,H. Legge,PERSON
+Reports_and_correspondence_between_the_honorable_commissioners_of_His_Majesty's_Navy_and_James_Sowerby_F.L.S_&c._1812_p034,Ja^s. Sowerby Esq^r.,PERSON
