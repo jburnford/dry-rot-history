@@ -439,6 +439,52 @@ if any(s['id'] == 'src_phil_trans_corpus' for s in kg.get('sources', [])):
     })
     node_ids.add('src_phil_trans_corpus')
 
+# === Build suppression map: events that duplicate their source at the same year ===
+# When an event has a source_id pointing to a source at the same year, and no
+# hardcoded edges reference the event, suppress the event node and merge its
+# description into the source tooltip.
+from collections import Counter as _Counter
+_source_years = {s['id']: s.get('year') for s in kg.get('sources', [])}
+_src_evt_count = _Counter(e.get('source_id') for e in kg.get('events', []) if e.get('source_id'))
+
+# Events referenced in hardcoded person_event_links or event_institutions (checked manually)
+_hardcoded_event_refs = {
+    'evt_wulfen_classification', 'evt_pepys_toadstools', 'evt_30_ships_crisis',
+    'evt_pepys_timber_conference', 'evt_keate_v_adams', 'evt_sowerby_classification',
+    'evt_withering_addition', 'evt_sowerby_navy_commission', 'evt_sowerby_qc_inspection',
+    'evt_sowerby_report_adopted', 'evt_sowerby_dockyard_inspections',
+    'evt_sowerby_timber_stacks', 'evt_sowerby_payment', 'evt_lukin_kiln_explosion',
+    'evt_1820_lords_inquiry', 'evt_st_vincent_timber', 'evt_1821_commons_inquiry',
+    'evt_markham_speech', 'evt_hms_queen_charlotte', 'evt_pringle_presidency',
+    'evt_times_qc_discovery', 'evt_times_qc_fumigation_failed',
+}
+# Events referenced in speculative_edges
+_speculative_event_refs = {
+    'evt_pepys_toadstools', 'evt_30_ships_crisis', 'evt_hales_alarm',
+    'evt_keate_v_adams', 'evt_wulfen_classification', 'evt_withering_addition',
+    'evt_sowerby_classification', 'evt_woolwich_ship_1798', 'evt_hms_queen_charlotte',
+    'evt_sowerby_qc_inspection', 'evt_st_vincent_timber', 'evt_1821_commons_inquiry',
+}
+
+suppressed_events = {}  # evt_id -> source_id
+for evt in kg.get('events', []):
+    eid = evt['id']
+    sid = evt.get('source_id')
+    evt_year = evt.get('year') or evt.get('start_year')
+    if (sid and sid in _source_years and _source_years[sid] == evt_year
+            and _src_evt_count[sid] == 1
+            and eid not in _hardcoded_event_refs
+            and eid not in _speculative_event_refs):
+        suppressed_events[eid] = sid
+
+# Build event descriptions to merge into source tooltips
+_evt_descriptions = {}
+for evt in kg.get('events', []):
+    if evt['id'] in suppressed_events:
+        desc = evt.get('description', '')
+        sig = evt.get('significance', '')
+        _evt_descriptions[suppressed_events[evt['id']]] = (desc, sig)
+
 # Source nodes (as diamonds)
 for src in kg.get('sources', []):
     sid = src['id']
@@ -456,6 +502,14 @@ for src in kg.get('sources', []):
     authors = src.get('authors') or []
     author_str = ', '.join(a for a in authors if a) if authors else 'Anon.'
 
+    # Merge suppressed event description into tooltip
+    base_tooltip = f"{src.get('title', '')}\n{author_str} ({year})\n\n{src.get('dry_rot_connection', src.get('notes', ''))[:300]}"
+    if sid in _evt_descriptions:
+        evt_desc, evt_sig = _evt_descriptions[sid]
+        base_tooltip += f"\n\n— {evt_desc}"
+        if evt_sig:
+            base_tooltip += f"\n{evt_sig[:200]}"
+
     # Fix x position to match year node
     src_x = year_x.get(year)
     src_node = {
@@ -468,7 +522,7 @@ for src in kg.get('sources', []):
         'nodeType': 'source',
         'size': 10,
         'mass': 1,
-        'title': f"{src.get('title', '')}\n{author_str} ({year})\n\n{src.get('dry_rot_connection', src.get('notes', ''))[:300]}",
+        'title': base_tooltip,
     }
     if src_x is not None:
         src_node['x'] = src_x
@@ -503,9 +557,11 @@ for src in kg.get('sources', []):
                         })
                     break
 
-# Event nodes
+# Event nodes (skip events suppressed into their source tooltips)
 for evt in kg.get('events', []):
     eid = evt['id']
+    if eid in suppressed_events:
+        continue  # merged into source tooltip
     year = evt.get('year') or evt.get('start_year')
     if not year or not isinstance(year, int) or year < 1660 or year > 1880:
         continue
@@ -695,6 +751,7 @@ person_event_links = [
     ('per_bellhouse', 'evt_1821_commons_inquiry', 'Described Serpula rhizomorphs in wall'),
     ('per_mghie', 'evt_1821_commons_inquiry', 'Never saw Quebec ship rotten in 6 yrs'),
     ('per_markham', 'evt_markham_speech', 'Merchant ships "ruin of the navy"'),
+    ('per_lukin', 'evt_times_qc_fumigation_failed', 'Lukin\'s fumigation failed; received £5,000'),
 ]
 for pid, eid, note in person_event_links:
     if pid in node_ids and eid in node_ids:
@@ -812,6 +869,8 @@ event_institutions = [
     ('evt_pepys_timber_conference', 'inst_navy_board', 'Conference of Master Builders'),
     ('evt_1821_commons_inquiry', 'inst_parliament', 'Commons Select Committee on Timber Trade'),
     ('evt_markham_speech', 'inst_parliament', 'Commons debate on naval supply, March 1804'),
+    ('evt_times_qc_discovery', 'inst_navy_board', 'Times reports QC decay; Canada oak blamed'),
+    ('evt_times_qc_fumigation_failed', 'inst_navy_board', 'Fumigation failed; led to Sowerby commission'),
 ]
 
 for eid, iid, note in event_institutions:
