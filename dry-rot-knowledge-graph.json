@@ -3,7 +3,7 @@
     "title": "Dry Rot and Timber Decay in British Scientific Discourse, 1665-1830",
     "description": "Knowledge graph tracing the emergence of dry rot (Serpula lacrymans) awareness in British science, with evidence from the Philosophical Transactions of the Royal Society and Pepys's Memoires (1690)",
     "created": "2026-04-02",
-    "updated": "2026-04-07",
+    "updated": "2026-04-27",
     "hypothesis": "Serpula lacrymans arrived in Europe and spread aggressively in Britain during the second half of the 18th century, reaching crisis levels by the 1770s-1800s. It was almost certainly a major contributor to the naval dry rot crisis — Knowles explicitly names it destroying English oak ships, and the same organism devastating buildings was clearly entering ships through their softwood components. Green (unseasoned) timber forced into service under wartime pressure created ideal conditions. BUT the naval crisis was multi-causal and multi-organismal. Sowerby's 1812 dockyard survey documented ~25 fungal species stratified by humidity and substrate: (1) Xylostroma giganteum on oak in the saturated hold (800-900°); (2) Serpula lacrymans and Fibroporia vaillantii (both conifer specialists) on pine/deal between decks (700-800°); (3) numerous other species across dockyard timber. His 'very little remains' of B. lachrymans on the QC partly reflects removal of the most damaged softwood before his inspection, partly reflects the saturated hold conditions favouring wet-environment fungi over the damp-environment Serpula. The crisis = Serpula invasion + native decay fungi + green timber + poor ventilation + wartime shortcuts. No single organism explains it.",
     "primary_sources": [
       "Philosophical Transactions of the Royal Society (1665-1869), 8,128 articles",
@@ -12,9 +12,10 @@
       "Lambert, The Last Sailing Battlefleet (1991), Chapter 3: Timber",
       "House of Lords Select Committee on Timber Trade (1820), 111pp"
     ],
-    "last_updated": "2026-04-09",
+    "last_updated": "2026-04-27",
     "recent_updates": [
-      "2026-04-09: Added Burke 1791 (Thoughts on French Affairs) — earliest known metaphorical/political use of \"dry rot,\" composed Dec 1791, published 1797."
+      "2026-04-09: Added Burke 1791 (Thoughts on French Affairs) — earliest known metaphorical/political use of \"dry rot,\" composed Dec 1791, published 1797.",
+      "2026-04-27: Cleanup pass — added 4 institutions (Navy Board, Admiralty, Royal Society, Society of Arts), wired ~50 orphan relationships, integrated Navy Dry Rot xlsx (35+18 ships, aggregate stats for repair backlog, Lower Canada timber exports 1802-1810), added Albion 1926 and 1812 Canada returns sources."
     ]
   },
   "organisms": [
@@ -306,7 +307,8 @@
         "context": "political — Jacobin subversion as hidden internal decay",
         "usage": "figurative, unexplained, presupposing reader familiarity",
         "significance": "Earliest known non-technical use; shows the term had reached elite political vocabulary by 1791, fifteen years before the Queen Charlotte and twenty before Knowles dates the term's popularisation"
-      }
+      },
+      "orphan_rationale": "standalone_vocabulary_node"
     },
     {
       "id": "term_dry_rotten",
@@ -317,38 +319,44 @@
         "source_id": "src_watson_beccario_1746",
         "context": "phosphorescence of decaying fir wood",
         "usage": "descriptive adjective, NOT the disease name"
-      }
+      },
+      "orphan_rationale": "standalone_vocabulary_node"
     },
     {
       "id": "term_putrefaction",
       "term": "putrefaction / putrid",
       "type": "theoretical_framework",
       "period": "1740s-1800s",
-      "notes": "Dominant framework for understanding all organic decay; applied to timber via miasmatic theory"
+      "notes": "Dominant framework for understanding all organic decay; applied to timber via miasmatic theory",
+      "orphan_rationale": "standalone_vocabulary_node"
     },
     {
       "id": "term_corruption",
       "term": "corruption / corrupted",
       "type": "general_decay_term",
-      "period": "17th-18th century"
+      "period": "17th-18th century",
+      "orphan_rationale": "standalone_vocabulary_node"
     },
     {
       "id": "term_canker",
       "term": "canker",
       "type": "plant_disease_term",
-      "notes": "Used for wood disease in trees (Knight 1795); parallel vocabulary to dry rot but for living trees"
+      "notes": "Used for wood disease in trees (Knight 1795); parallel vocabulary to dry rot but for living trees",
+      "orphan_rationale": "standalone_vocabulary_node"
     },
     {
       "id": "term_worm_eaten",
       "term": "worm-eaten",
       "type": "biological_damage_term",
-      "notes": "Marine worms (Teredo) destroying ship hulls — distinct from fungal rot but sometimes conflated in early sources"
+      "notes": "Marine worms (Teredo) destroying ship hulls — distinct from fungal rot but sometimes conflated in early sources",
+      "orphan_rationale": "standalone_vocabulary_node"
     },
     {
       "id": "term_decay_timber",
       "term": "decay of timber / timber decay",
       "type": "general_term",
-      "notes": "Generic term encompassing all forms of wood deterioration"
+      "notes": "Generic term encompassing all forms of wood deterioration",
+      "orphan_rationale": "standalone_vocabulary_node"
     },
     {
       "id": "term_toadstool",
@@ -360,7 +368,8 @@
         "context": "ship holds",
         "usage": "Pepys gathered them with his own hands — fruiting bodies of wet rot fungi"
       },
-      "notes": "Pepys's toadstools are the earliest documented observation of fungal fruiting bodies on British naval timber"
+      "notes": "Pepys's toadstools are the earliest documented observation of fungal fruiting bodies on British naval timber",
+      "orphan_rationale": "standalone_vocabulary_node"
     },
     {
       "id": "term_that_evil",
@@ -371,7 +380,8 @@
         "source_id": "src_pepys_1690",
         "context": "Commissioners' report to the King"
       },
-      "notes": "The Commissioners' language for timber decay — treated as an infection that might have 'remains or returns' but without any specific disease name"
+      "notes": "The Commissioners' language for timber decay — treated as an infection that might have 'remains or returns' but without any specific disease name",
+      "orphan_rationale": "standalone_vocabulary_node"
     },
     {
       "id": "term_perished_to_powder",
@@ -394,21 +404,23 @@
           "context": "dry rot definition — 'reduces it to a mass of dry dust'"
         }
       ],
-      "notes": "This symptom is NOT exclusive to Serpula lacrymans. Multiple native European brown rot fungi produce identical brown cubical rot and dry powder: Coniophora puteana (cellar fungus), Laetiporus sulphureus (chicken of the woods), Fibroporia vaillantii (mine fungus), Fomitopsis pinicola (red-belted conk). All digest cellulose while leaving lignin, causing cubical cracking and powdering. The distinguishing feature of Serpula is not the symptom but the BEHAVIOUR: spreading to dry timber via rhizomorphs. Pepys's 'perished to powder' in damp ship holds is fully explained by native brown rot fungi."
+      "notes": "This symptom is NOT exclusive to Serpula lacrymans. Multiple native European brown rot fungi produce identical brown cubical rot and dry powder: Coniophora puteana (cellar fungus), Laetiporus sulphureus (chicken of the woods), Fibroporia vaillantii (mine fungus), Fomitopsis pinicola (red-belted conk). All digest cellulose while leaving lignin, causing cubical cracking and powdering. The distinguishing feature of Serpula is not the symptom but the BEHAVIOUR: spreading to dry timber via rhizomorphs. Pepys's 'perished to powder' in damp ship holds is fully explained by native brown rot fungi.",
+      "orphan_rationale": "standalone_vocabulary_node"
     },
     {
       "id": "term_sap_rot",
       "term": "sap-rot",
       "type": "alternative_name",
       "source": "Encyclopedia Britannica 1823",
-      "notes": "Proposed as more accurate name than 'dry rot'"
+      "notes": "Proposed as more accurate name than 'dry rot'",
+      "orphan_rationale": "standalone_vocabulary_node"
     }
   ],
   "people": [
     {
       "id": "per_pringle",
       "name": "Sir John Pringle",
-      "wikidata_qid": "Q553845",
+      "wikidata_qid": "Q1348255",
       "role": "President of the Royal Society",
       "presidency": {
         "start": 1772,
@@ -424,27 +436,33 @@
         "per_priestley",
         "per_macbride",
         "per_king_edward"
-      ]
+      ],
+      "birth_year": 1707,
+      "death_year": 1782
     },
     {
       "id": "per_hales",
       "name": "Stephen Hales",
-      "wikidata_qid": "Q552054",
+      "wikidata_qid": "Q312017",
       "role": "Clergyman, natural philosopher",
       "relevance": "First to explicitly link ship timber decay to confined air (1755); proposed ventilation as remedy",
       "key_works_phil_trans": [
         "src_hales_1755"
-      ]
+      ],
+      "birth_year": 1677,
+      "death_year": 1761
     },
     {
       "id": "per_mahon",
       "name": "Charles Stanhope, 3rd Earl Stanhope (Lord Viscount Mahon)",
-      "wikidata_qid": "Q335tried",
+      "wikidata_qid": "Q334067",
       "role": "Inventor, FRS",
       "relevance": "First to use term 'dry-rot' in Phil Trans (1778)",
       "key_works_phil_trans": [
         "src_mahon_1778"
-      ]
+      ],
+      "birth_year": 1753,
+      "death_year": 1816
     },
     {
       "id": "per_cook",
@@ -454,37 +472,45 @@
       "relevance": "Reported methods for keeping ships dry and healthy to Pringle (1776)",
       "key_works_phil_trans": [
         "src_cook_1776"
-      ]
+      ],
+      "birth_year": 1728,
+      "death_year": 1779
     },
     {
       "id": "per_priestley",
       "name": "Joseph Priestley",
-      "wikidata_qid": "Q8674",
+      "wikidata_qid": "Q159636",
       "role": "Natural philosopher, chemist",
       "relevance": "Researched putrid air and its effects; addressed findings to Pringle",
       "key_works_phil_trans": [
         "src_priestley_1774"
-      ]
+      ],
+      "birth_year": 1733,
+      "death_year": 1804
     },
     {
       "id": "per_watson_william",
       "name": "William Watson",
-      "wikidata_qid": "Q771498",
+      "wikidata_qid": "Q462269",
       "role": "Physician, natural philosopher, FRS",
       "relevance": "1742 observations on ship ventilation linking putrid air to both health and decay",
       "key_works_phil_trans": [
         "src_watson_1742"
-      ]
+      ],
+      "birth_year": 1715,
+      "death_year": 1787
     },
     {
       "id": "per_macbride",
       "name": "David Macbride",
-      "wikidata_qid": "Q5232563",
+      "wikidata_qid": "Q18681465",
       "role": "Physician",
       "relevance": "Tanning (anti-putrefaction of organic matter); paper communicated by Pringle 1778",
       "key_works_phil_trans": [
         "src_macbride_1778"
-      ]
+      ],
+      "birth_year": 1726,
+      "death_year": 1778
     },
     {
       "id": "per_king_edward",
@@ -499,76 +525,90 @@
     {
       "id": "per_miles",
       "name": "Henry Miles",
-      "wikidata_qid": null,
+      "wikidata_qid": "Q5725864",
       "role": "Clergyman, FRS",
       "relevance": "1749 microscopic observation of fungus on firewood — British scientists could observe wood-decay fungi but didn't connect them to timber disease",
       "key_works_phil_trans": [
         "src_miles_1749"
-      ]
+      ],
+      "birth_year": 1698,
+      "death_year": 1763
     },
     {
       "id": "per_leeuwenhoek",
       "name": "Anthony van Leeuwenhoek",
-      "wikidata_qid": "Q15649",
+      "wikidata_qid": "Q43522",
       "role": "Microscopist",
       "relevance": "1694 observations on timber quality and unexpected rot — attributed to pre-existing 'inward decay', not post-harvest fungal attack",
       "key_works_phil_trans": [
         "src_leeuwenhoek_1694"
-      ]
+      ],
+      "birth_year": 1632,
+      "death_year": 1723
     },
     {
       "id": "per_smeathman",
       "name": "Henry Smeathman",
-      "wikidata_qid": "Q1606099",
+      "wikidata_qid": "Q5728421",
       "role": "Entomologist",
       "relevance": "1781 account of termites destroying wooden structures in tropics — biological destruction of wood, but insects not fungi",
       "key_works_phil_trans": [
         "src_smeathman_1781"
-      ]
+      ],
+      "birth_year": 1742,
+      "death_year": 1786
     },
     {
       "id": "per_adam_robert",
       "name": "Robert Adam",
-      "wikidata_qid": "Q315711",
+      "wikidata_qid": "Q312635",
       "role": "Architect, designer",
       "relevance": "Built the Adelphi complex (1768-1772) which later suffered dry rot (c.1800). His firm (Mell. Adams) was sued by George Keate for dry rot in a new building (1785, Times). Sir William Chambers and Banks testified. The Society of Arts, housed in the Adelphi, offered a gold medal for solving dry rot (1783). The Adams are at the centre of the early building dry rot crisis.",
       "key_sources": [
         "src_times_1785_keate_v_adams",
         "src_society_arts_1783"
-      ]
+      ],
+      "birth_year": 1728,
+      "death_year": 1792
     },
     {
       "id": "per_chambers",
       "name": "Sir William Chambers",
-      "wikidata_qid": "Q455816",
+      "wikidata_qid": "Q455155",
       "role": "Architect (Somerset House), FRS",
       "relevance": "Arbitrated the Keate v. Adams dry rot case (1785). Found no cause of action — declared the Adams had built with 'great professional skill and ability.' One of Britain's leading architects directly involved in adjudicating a dry rot dispute.",
       "key_sources": [
         "src_times_1785_keate_v_adams"
-      ]
+      ],
+      "birth_year": 1723,
+      "death_year": 1796
     },
     {
       "id": "per_hartley",
       "name": "David Hartley (the Younger)",
-      "wikidata_qid": "Q5235564",
+      "wikidata_qid": "Q5234782",
       "role": "MP, inventor (fireproofing), FRS",
       "relevance": "1776 fire-plates pamphlet confirms 'Dry-Rot' was 'commonly called' by that date. Admits 'we do not know the real cause.' Notes the wainscot puzzle — dry rot in open rooms contradicts ventilation theory. Proposes renaming it 'Wet-Rot.' Mann (1778) cites his fireproofing experiments in the same text that introduces 'Dry-rot' to French readers. Parliament voted him £2,500 for fireproofing experiments (1774-1776). George III visited his experimental house on Putney Heath.",
       "key_works": [
         "src_hartley_1776"
-      ]
+      ],
+      "birth_year": 1732,
+      "death_year": 1813
     },
     {
       "id": "per_mann",
       "name": "Théodore Augustin Mann (l'Abbé Mann)",
-      "wikidata_qid": "Q2420694",
-      "role": "Benedictine monk, scientist, FRS, member of the Imperial Academy of Sciences at Brussels",
+      "wikidata_qid": "Q7781680",
+      "role": "Carthusian monk, scientist, FRS, member of the Imperial Academy of Sciences at Brussels",
       "relevance": "Introduced the English term 'Dry-rot' to a French scientific audience in October 1778. Connected to Banks and the Royal Society. Published in Phil Trans 1779 (Rivers and Canals, communicated by Banks). Shows international circulation of dry rot knowledge.",
       "key_works": [
         "src_mann_1778"
       ],
       "key_works_phil_trans": [
         "jstor-106438"
-      ]
+      ],
+      "birth_year": 1735,
+      "death_year": 1809
     },
     {
       "id": "per_banks",
@@ -588,32 +628,38 @@
         "gap": "left before 1783",
         "rejoined": 1791,
         "notes": "Absent during the gold medal dry rot prize years (1783-1789+)"
-      }
+      },
+      "birth_year": 1743,
+      "death_year": 1820
     },
     {
       "id": "per_knight",
       "name": "Thomas Andrew Knight",
-      "wikidata_qid": "Q538816",
+      "wikidata_qid": "Q940986",
       "role": "Horticulturist, FRS",
       "relevance": "1795 observations on 'canker' disease in fruit trees — wood 'soft and spongy'; fungal pathology described without mycological vocabulary",
       "key_works_phil_trans": [
         "src_knight_1795"
-      ]
+      ],
+      "birth_year": 1759,
+      "death_year": 1838
     },
     {
       "id": "per_withering",
       "name": "William Withering",
-      "wikidata_qid": "Q379649",
+      "wikidata_qid": "Q715949",
       "role": "Physician, botanist",
       "relevance": "First British botanist to include B. lachrymans ('dry-rot') in a standard flora (1792, 2nd ed.). Absent from his 1776 1st edition — brackets the recognition of Serpula to 1776-1792. Sowerby criticised him for never having seen the plant personally.",
       "key_works": [
         "src_withering_1792"
-      ]
+      ],
+      "birth_year": 1741,
+      "death_year": 1799
     },
     {
       "id": "per_sowerby",
       "name": "James Sowerby",
-      "wikidata_qid": "Q455511",
+      "wikidata_qid": "Q1235813",
       "role": "Naturalist, botanical illustrator, mycologist; Navy Board consultant on dry rot (1812-1814)",
       "relevance": "Published first British mycological illustrations and descriptions of dry rot fungi (1797). Tab. CXIII illustrates B. lachrymans as 'Common Dry-rot'. Then in 1812, HIRED BY THE NAVY BOARD to inspect HMS Queen Charlotte at Plymouth — the same man who illustrated the organism 15 years earlier. Inspected the ship 24-25 July 1812, identified specific fungi by his own English Fungi plate numbers. Crucially found 'very little remains of Boletus Lachrymans E.F. 113' but abundant B. hybridus EF 289 and Xylostroma giganteum EF 358 — supporting a two-organism distinction between ship and building dry rot. His recommendations (ventilation, hygrometers, seasoned timber, NO chemical treatments) were adopted fleet-wide by the Admiralty on 28 Aug 1812. Subsequently inspected Deptford and Woolwich dockyards with Seppings (Oct 1813), commissioned to build 6 experimental timber stacks at Deptford (Nov 1813), and awarded 200 guineas (Jan 1814). His archive (NHM B95-B98) contains 442 pages of correspondence, notebooks, drafts, and fair copies documenting the entire engagement.",
       "key_works": [
@@ -632,15 +678,19 @@
         "per_legge",
         "per_thompson_tb",
         "per_rule"
-      ]
+      ],
+      "birth_year": 1757,
+      "death_year": 1822
     },
     {
       "id": "per_wulfen",
       "name": "Franz Xaver von Wulfen",
-      "wikidata_qid": "Q78605",
+      "wikidata_qid": "Q698014",
       "role": "Botanist, mycologist",
       "relevance": "First to classify Serpula lacrymans (1781)",
-      "notes": "Classification outside Phil Trans; suggests organism was being encountered by European naturalists by late 18th century"
+      "notes": "Classification outside Phil Trans; suggests organism was being encountered by European naturalists by late 18th century",
+      "birth_year": 1728,
+      "death_year": 1805
     },
     {
       "id": "per_mcwilliam",
@@ -648,7 +698,10 @@
       "wikidata_qid": null,
       "role": "Author",
       "relevance": "Author of 'An Essay on the Origin and Operation of the Dry Rot' (London, 1818) — listed in Phil Trans Back Matter 1819",
-      "notes": "Part of the explosion of dry rot literature post-1800"
+      "notes": "Part of the explosion of dry rot literature post-1800",
+      "birth_year": null,
+      "death_year": null,
+      "dates_status": "not_in_wikidata_or_obscure"
     },
     {
       "id": "per_knowles",
@@ -663,12 +716,15 @@
       "key_sources": [
         "src_knowles_1821",
         "src_sowerby_archive_nhm"
-      ]
+      ],
+      "birth_year": null,
+      "death_year": null,
+      "dates_status": "not_in_wikidata_or_obscure"
     },
     {
       "id": "per_pepys",
       "name": "Samuel Pepys",
-      "wikidata_qid": "Q106941",
+      "wikidata_qid": "Q106143",
       "role": "Secretary of the Admiralty, FRS, PRS (1684-1686)",
       "relevance": "Gathered toadstools 'as big as my Fists' from ship holds in the 1680s — first documented observation of fungal fruiting bodies on British naval timber. Diagnosed cause as neglect (lack of ventilation, graving, breaming), not disease. The conditions described are wet rot, not dry rot.",
       "key_works": [
@@ -677,7 +733,9 @@
       "connections": [
         "per_deane"
       ],
-      "notes": "Pepys's Memoires (1690) provides the critical baseline for what timber decay looked like BEFORE Serpula lacrymans arrived"
+      "notes": "Pepys's Memoires (1690) provides the critical baseline for what timber decay looked like BEFORE Serpula lacrymans arrived",
+      "birth_year": 1633,
+      "death_year": 1703
     },
     {
       "id": "per_sutton",
@@ -687,33 +745,40 @@
       "relevance": "Invented ship ventilation system (1742) — uses ship's galley fire to draw foul air from hold",
       "key_works_phil_trans": [
         "src_mead_sutton_1742"
-      ]
+      ],
+      "birth_year": null,
+      "death_year": null,
+      "dates_status": "not_in_wikidata_or_obscure"
     },
     {
       "id": "per_mead",
       "name": "Richard Mead",
-      "wikidata_qid": "Q553842",
+      "wikidata_qid": "Q3888733",
       "role": "Royal physician, FRS",
       "relevance": "Communicated Sutton's ventilation invention to RS (1742)",
       "key_works_phil_trans": [
         "src_mead_sutton_1742"
-      ]
+      ],
+      "birth_year": 1673,
+      "death_year": 1754
     },
     {
       "id": "per_lukin",
       "name": "Lionel Lukin",
-      "wikidata_qid": "Q6554783",
+      "wikidata_qid": "Q6555709",
       "role": "Inventor, timber preservation specialist; Navy consultant",
       "relevance": "Accompanied Sowerby to Plymouth to inspect HMS Queen Charlotte (July 1812). Had previously given 'many' reports to the Navy Board on dry rot. Employed ventilation methods with success. In 1811 erected a kiln at Woolwich dockyard for timber preservation — a fatal explosion killed 6 workers. Sowerby credits Lukin for pointing out the rubbish-in-hollows problem aboard HMS San Domingo. Lukin is the practical Navy man; Sowerby is the scientific mycologist. Their collaboration represents the first fusion of mycological expertise with naval engineering in dry rot prevention.",
       "connections": [
         "per_sowerby"
       ],
-      "notes": "Best known historically as inventor of the unsinkable boat (1785). His dry rot work is less well known."
+      "notes": "Best known historically as inventor of the unsinkable boat (1785). His dry rot work is less well known.",
+      "birth_year": 1742,
+      "death_year": 1834
     },
     {
       "id": "per_seppings",
       "name": "Robert Seppings",
-      "wikidata_qid": "Q7349074",
+      "wikidata_qid": "Q763176",
       "role": "Surveyor of the Navy (1813-1832)",
       "relevance": "Key figure in post-war naval reform. Accompanied Sowerby to inspect Deptford and Woolwich dockyards (Oct 1813). Sowerby praised his 'penetration & extensive practical knowledge' and 'very judicious & instructive queries.' Signed Navy Board letters commissioning Sowerby's work. Lambert's account credits Seppings (with Byam Martin) for the postwar programme to banish dry rot by improving timber seasoning, design, and strategic reserves. His diagonal bracing system strengthened ship construction and improved ventilation between frames.",
       "connections": [
@@ -723,7 +788,9 @@
       "key_sources": [
         "src_sowerby_1812_navy",
         "src_lambert"
-      ]
+      ],
+      "birth_year": 1767,
+      "death_year": 1840
     },
     {
       "id": "per_hartwell",
@@ -735,7 +802,10 @@
         "per_sowerby",
         "per_legge",
         "per_thompson_tb"
-      ]
+      ],
+      "birth_year": null,
+      "death_year": null,
+      "dates_status": "not_in_wikidata_or_obscure"
     },
     {
       "id": "per_legge",
@@ -747,7 +817,10 @@
         "per_sowerby",
         "per_hartwell",
         "per_thompson_tb"
-      ]
+      ],
+      "birth_year": null,
+      "death_year": null,
+      "dates_status": "not_in_wikidata_or_obscure"
     },
     {
       "id": "per_thompson_tb",
@@ -759,12 +832,15 @@
         "per_sowerby",
         "per_hartwell",
         "per_legge"
-      ]
+      ],
+      "birth_year": null,
+      "death_year": null,
+      "dates_status": "not_in_wikidata_or_obscure"
     },
     {
       "id": "per_rule",
       "name": "Sir William Rule",
-      "wikidata_qid": null,
+      "wikidata_qid": "Q115809861",
       "role": "Surveyor of the Navy",
       "relevance": "Sent with Knowles to Plymouth to oversee implementation of Sowerby's recommendations on the Queen Charlotte. Sowerby expressed deep gratitude that the Admiralty sent Rule and Knowles, noting 'in their experienced hands I have the satisfaction to learn it has been successful in a case rendered more desperate by the mistakes that had preceded my report.' Co-signed Navy Board letters.",
       "connections": [
@@ -775,7 +851,7 @@
     {
       "id": "per_byam_martin",
       "name": "Sir Thomas Byam Martin",
-      "wikidata_qid": "Q7791290",
+      "wikidata_qid": "Q4282534",
       "role": "Controller of the Navy (1815-1831)",
       "relevance": "Central figure in postwar timber policy. Lambert credits him with the programme to banish dry rot: building up timber reserves, improving seasoning, better design. 'Every contract or proposal had to pass through his office.' His strategy of creating a strategic seasoned timber reserve for the next major war was technically successful but came too late — design progress rendered ships obsolete before they needed repair.",
       "key_sources": [
@@ -783,12 +859,14 @@
       ],
       "connections": [
         "per_seppings"
-      ]
+      ],
+      "birth_year": 1773,
+      "death_year": 1854
     },
     {
       "id": "per_wallace",
       "name": "Thomas Wallace",
-      "wikidata_qid": "Q7794555",
+      "wikidata_qid": "Q7794844",
       "role": "Vice-President of the Board of Trade (1818-1823); later 1st Baron Wallace",
       "relevance": "Chaired the 1821 Commons Select Committee on timber trade. Moderate Tory free trader, key figure in the Huskisson-era trade liberalisation. Steered the inquiry toward reducing (but not eliminating) protective duties on Baltic timber. The committee's balanced recommendation — reduce duty differential by 20s. per load — reflects Wallace's position. Connects the dry rot debate to the broader political movement toward free trade that would culminate in Corn Law repeal (1846).",
       "connections": [
@@ -796,7 +874,9 @@
       ],
       "key_sources": [
         "src_1821_commons_timber"
-      ]
+      ],
+      "birth_year": 1768,
+      "death_year": 1844
     },
     {
       "id": "per_copland",
@@ -807,7 +887,10 @@
       "key_sources": [
         "src_1820_lords_timber",
         "src_1821_commons_timber"
-      ]
+      ],
+      "birth_year": null,
+      "death_year": null,
+      "dates_status": "not_in_wikidata_or_obscure"
     },
     {
       "id": "per_white_john",
@@ -818,7 +901,10 @@
       "key_sources": [
         "src_1820_lords_timber",
         "src_1821_commons_timber"
-      ]
+      ],
+      "birth_year": null,
+      "death_year": null,
+      "dates_status": "not_in_wikidata_or_obscure"
     },
     {
       "id": "per_haigh",
@@ -828,17 +914,22 @@
       "relevance": "Key CONTRADICTING witness in 1821 inquiry. Built 8 houses with American pine timber in 1810; examined joists four months before testimony — 'perfectly sound and good' after 10+ years. Built another house with Riga timber where joists under wine cellar were 'completely decayed' and 'all over fungus' after 9 years. Declared American yellow pine 'not more subject to decay than the common pine of the Baltic.' Represents the Lancashire experience that contradicted the London consensus.",
       "key_sources": [
         "src_1821_commons_timber"
-      ]
+      ],
+      "birth_year": null,
+      "death_year": null,
+      "dates_status": "not_in_wikidata_or_obscure"
     },
     {
       "id": "per_bellhouse",
       "name": "David Bellhouse",
-      "wikidata_qid": null,
+      "wikidata_qid": "Q5231288",
       "role": "Builder and timber merchant, Manchester (33 years experience)",
       "relevance": "Key CONTRADICTING witness in 1821 inquiry. Never seen American pine decay; HAS seen dry rot in Baltic timber (Dantzig and Memel). Provided vivid description of Serpula lacrymans rhizomorphs: 'strings of this fungus, like little bits of leather, running all along in the joints' of a wall — fungus spreading through masonry to infect timber in an adjacent new dining room within 12 months. This is the most precise lay description of Serpula behaviour in the entire archive.",
       "key_sources": [
         "src_1821_commons_timber"
-      ]
+      ],
+      "birth_year": 1764,
+      "death_year": 1840
     },
     {
       "id": "per_mghie",
@@ -848,17 +939,22 @@
       "relevance": "Witness in 1821 inquiry. Contradicted the anti-Canadian consensus: 'I never in my life saw a Quebec ship rotten in six years.' Listed 5 English-oak ships with dry rot at 6-7 years (Minerva, Batavia, Alexander, Atlas, HMS Blake). Declared dry rot 'clearly a disease' that communicates from one piece to another. Attributed primary cause to 'being cut down in an improper season, the sap being up the tree.'",
       "key_sources": [
         "src_1821_commons_timber"
-      ]
+      ],
+      "birth_year": null,
+      "death_year": null,
+      "dates_status": "not_in_wikidata_or_obscure"
     },
     {
       "id": "per_denman",
       "name": "Thomas Denman",
-      "wikidata_qid": "Q7790294",
+      "wikidata_qid": "Q5620390",
       "role": "Physician, obstetrician (M.D.)",
       "relevance": "Author of the earliest known book on dry rot (1795), previously misattributed to publisher Joseph Johnson. A physician, not a builder — treats dry rot as a medical 'distemper'. His miasmatic theory (rotted earth with 'perverted principle of vegetation') represents the pre-mycological understanding. Describes fungi spreading over brick walls to attack wood — observing Serpula behaviour without recognising the organism. His house at Sunbury Common was extensively affected. Documents epidemic-scale dry rot in 1790s London (Kensington Palace, Grosvenor Square, whole streets north of Oxford Road).",
       "key_works": [
         "src_denman_1795"
-      ]
+      ],
+      "birth_year": 1733,
+      "death_year": 1815
     },
     {
       "id": "per_pering",
@@ -868,7 +964,10 @@
       "relevance": "Author of the earliest book on dry rot in ships (January 1812). Senior dockyard officer writing from direct experience. Distinguishes fungi from dry rot as separate phenomena — 'dry-rot does not require one-half of the moisture.' Describes dry rot as contagious. Names HMS Bulwark, Foudroyant, Ocean, Queen Charlotte as premature decay cases. Estimates naval dry rot costs £20M every 8 years. Cites NO scientific literature. Published 6 months before Sowerby's inspection of the same ship (Queen Charlotte) he names as notorious.",
       "key_works": [
         "src_pering_1812"
-      ]
+      ],
+      "birth_year": null,
+      "death_year": null,
+      "dates_status": "not_in_wikidata_or_obscure"
     },
     {
       "id": "per_bowden",
@@ -878,7 +977,10 @@
       "relevance": "Won the Society of Arts gold medal for dry rot in 1818 — 35 years after the prize was first offered (1783). Cited by Knowles (1821). The long-awaited answer to the Society's call for discovering 'the cause of the Dry Rot in Timber.'",
       "key_sources": [
         "src_knowles_1821"
-      ]
+      ],
+      "birth_year": null,
+      "death_year": null,
+      "dates_status": "not_in_wikidata_or_obscure"
     },
     {
       "id": "per_burridge",
@@ -890,7 +992,13 @@
         "src_burridge_1824"
       ],
       "address": "Nelson Square, Blackfriars-road, London",
-      "connections": ["per_banks", "per_brougham"]
+      "connections": [
+        "per_banks",
+        "per_brougham"
+      ],
+      "birth_year": null,
+      "death_year": null,
+      "dates_status": "not_in_wikidata_or_obscure"
     },
     {
       "id": "per_gregson",
@@ -901,34 +1009,41 @@
       "key_works": [
         "src_gregson_1816"
       ],
-      "address": "Charles Street, Grosvenor Square"
+      "address": "Charles Street, Grosvenor Square",
+      "birth_year": null,
+      "death_year": null,
+      "dates_status": "not_in_wikidata_or_obscure"
     },
     {
       "id": "per_markham",
       "name": "Captain Markham",
-      "wikidata_qid": null,
+      "wikidata_qid": "Q6246771",
       "role": "Naval captain, MP",
       "relevance": "Spoke in Commons debate on naval supply, 15 March 1804. Declared merchant-built ships 'get what is called the dry rot' and 'had been the ruin of the navy.' Earliest parliamentary use of 'dry rot' for ships found in this research. Connected dry rot to crew health ('inclined the men to fevers'). Spoken during St Vincent's First Lordship.",
       "key_sources": [
         "src_markham_1804"
       ],
-      "notes": "Likely John Markham (1761-1827), naval officer and MP for Portsmouth. Later a Lord of the Admiralty. Would need Wikidata disambiguation."
+      "notes": "Likely John Markham (1761-1827), naval officer and MP for Portsmouth. Later a Lord of the Admiralty. Would need Wikidata disambiguation.",
+      "birth_year": 1761,
+      "death_year": 1827
     },
     {
       "id": "per_st_vincent",
       "name": "John Jervis, 1st Earl of St Vincent",
-      "wikidata_qid": "Q335063",
+      "wikidata_qid": "Q335254",
       "role": "First Lord of the Admiralty (1801-1804)",
       "relevance": "Lambert identifies St Vincent as the direct cause of the post-1805 dry rot explosion. During the Peace of Amiens, he allowed timber stocks to run down while attacking corruption and the timber 'combination.' When war resumed, successors were forced into worse contracts and permitted use of GREEN (unseasoned) TIMBER in merchant-built battleships. 'The use of green timber was the direct cause of the post-1805 explosion of dry rot.' His zealotry about corruption inadvertently created the naval dry rot crisis.",
       "key_sources": [
         "src_lambert"
-      ]
+      ],
+      "birth_year": 1735,
+      "death_year": 1823
     },
     {
       "id": "per_burke",
       "name": "Edmund Burke",
       "dates": "1729-1797",
-      "wikidata_qid": "Q132805",
+      "wikidata_qid": "Q165792",
       "role": "Anglo-Irish statesman, MP (Wendover 1765-74, Bristol 1774-80, Malton 1780-94), political philosopher; sitting MP when 'dry rot' first appears in HoC Journals (1774) and when he composed the 1791 metaphor.",
       "dry_rot_connection": "Uses 'dry rot' as a political metaphor for internal Jacobin subversion in Thoughts on French Affairs (written December 1791, published posthumously 1797). Earliest known FIGURATIVE use of the term in elite political prose. Confirms that by 1791 'dry rot' was sufficiently familiar to a metropolitan reading public to do sophisticated rhetorical work without explanation. The specific valence — internal corruption behind an intact-looking surface — corresponds precisely to the distinctive behaviour of Serpula lacrymans (rhizomorphic spread through framing behind sound-looking finishes), suggesting the metaphor relied on lay knowledge of the organism's actual epidemiology.",
       "parliamentary_career": {
@@ -950,7 +1065,26 @@
         "in_house_when_dry_rot_first_appears_in_HoC_Journals_1774": true,
         "sitting_MP_when_thoughts_on_french_affairs_composed_dec_1791": "Malton",
         "significance": "Burke was a sitting member of the House of Commons throughout the period when the term 'dry rot' first migrated from cordage (Gray 1725) to timber in parliamentary records (HoC Journals 1774, church floors). He was in the Commons when the Society of Arts gold medal was first offered (1783) and re-advertised through the 1780s. His 1791 metaphor is therefore not the reach of a private writer for a vaguely familiar phrase — it is a sitting MP using a term that he had likely heard, read, or seen debated in his own chamber for at least seventeen years."
-      }
+      },
+      "birth_year": 1729,
+      "death_year": 1797
+    },
+    {
+      "id": "per_lambert",
+      "name": "Andrew Lambert",
+      "role": "Naval historian, Laughton Professor of Naval History at King's College London",
+      "wikidata_qid": "Q4757681",
+      "notes": "Author of The Last Sailing Battlefleet (1991), the standard modern account of Royal Navy timber and shipbuilding 1815-1850. The paper 'The Rot Assemblage' engages Lambert's argument that seasoning failure (not species or fungus) was the proximate cause of the dry rot crisis.",
+      "birth_year": 1956
+    },
+    {
+      "id": "per_britton",
+      "name": "Thomas Allen Britton",
+      "role": "Author of Dry Rot in Timber: A Treatise on the Causes, Nature, and Consequences of the Various Forms of Decay (1875, 1882)",
+      "notes": "Britton 1875/1882 is the key late-Victorian synthesis of the dry rot literature. The Sowerby B. lachrymans → Merulius lacrymans / Polyporus distinction was finally settled in this work. Cited as the source for the Woolwich ship c.1798 'orange and brown inverted cones' description (originally European Magazine Dec 1811).",
+      "birth_year": null,
+      "death_year": null,
+      "dates_status": "not_in_wikidata_or_obscure"
     }
   ],
   "sources": [
@@ -3343,7 +3477,9 @@
       "document_type": "Editorial",
       "evidence_type": "newspaper_report",
       "relevance": "direct",
-      "terms_used": ["dry rot"],
+      "terms_used": [
+        "dry rot"
+      ],
       "key_quote": "The Queen Charlotte, of 120 guns, the building of which ship lasted some years, in Deptford dock-yard, has on her arrival at Plymouth, been declared by the officers of that yard, to be in a rapid state of decay, owing to the dry rot. This discovery, it seems, arose from its being found necessary to caulk the ship's top-sides where the effects of the rot appeared visible. The timber in which the decay has taken place, principally consists of Canada oak. The Queen Charlotte was launched on the 17th of July, last year, at Deptford, and went to Sheerness, where she lay several months to season; and not long since proceeded under charge of Captain Morris, and a proper number of officers and men, from that place to Plymouth.",
       "key_claims": [
         "EARLIEST KNOWN NEWSPAPER REPORT of the Queen Charlotte dry rot crisis (September 1811)",
@@ -3355,7 +3491,9 @@
       ],
       "context": "naval_public",
       "dry_rot_connection": "Contemporary public evidence for the moment the Queen Charlotte crisis broke. Confirms Knowles's 1821 claim that the term 'dry rot' was popularised by the QC's defective state being discovered in 1811. The information was in the Times from the start — the public narrative of Canadian timber and dry rot was established in September 1811, nine months before Sowerby's inspection.",
-      "people_mentioned": ["Captain Morris"]
+      "people_mentioned": [
+        "Captain Morris"
+      ]
     },
     {
       "id": "src_times_1812_qc_fumigation",
@@ -3370,7 +3508,9 @@
       "document_type": "Editorial",
       "evidence_type": "newspaper_report",
       "relevance": "direct",
-      "terms_used": ["dry rot"],
+      "terms_used": [
+        "dry rot"
+      ],
       "key_quote": "The Queen Charlotte, of 110 guns, built at Deptford, (which had been fumigated for the dry rot, and is now in dock in Plymouth-yard) is found on opening to be in such a state, that every top-timber and tree-nail is to be taken out, preparatory to a general inspection. The Queen Charlotte has never been at sea, except in the passage from Deptford to Plymouth.",
       "key_claims": [
         "Confirms fumigation was attempted and FAILED — 'found on opening to be in such a state' after treatment",
@@ -3385,7 +3525,9 @@
     {
       "id": "src_gregson_1816",
       "title": "An Essay on those Defects of Buildings dependant on the Nature and Properties of Air: containing a Report on the Cause of the Dry Rot in the Royal Navy, and the Means of Prevention as now adopted in His Majesty's Dock Yards",
-      "authors": ["Joseph Gregson"],
+      "authors": [
+        "Joseph Gregson"
+      ],
       "year": 1816,
       "publication": "London: printed for James Ridgway, Piccadilly; and sold by J. Taylor, Architectural Library, High Holborn",
       "evidence_type": "treatise",
@@ -3396,7 +3538,12 @@
       "epigraph": "Ex aquâ oritur aër, ex aëre æther. — Cic.",
       "pages": 78,
       "local_file": "U0106504838.pdf",
-      "terms_used": ["dry rot", "wet rot", "vegetation", "fermentation"],
+      "terms_used": [
+        "dry rot",
+        "wet rot",
+        "vegetation",
+        "fermentation"
+      ],
       "key_claims": [
         "BRIDGES BUILDING AND NAVAL STRANDS: an Interior Surveyor writing about the navy with Admiralty permission",
         "Contains 'Report of a Survey taken on Board His Majesty's Ship the Stag, building in Deptford Yard, December 30th, 1811' — survey made 'in consequence of the Queen Charlotte being infected'",
@@ -3424,23 +3571,74 @@
         "report_signed": "1811-12-31"
       },
       "contents": [
-        {"title": "Introduction", "page": 1},
-        {"title": "Observations on the Drains and Sewers", "page": 9},
-        {"title": "Observations on the Fogs of London", "page": 12},
-        {"title": "Damp Walls", "page": 14},
-        {"title": "Observations on the Dry Rot", "page": 15},
-        {"title": "Report of a Survey on the Dry Rot in the Royal Navy, taken in Deptford Yard in 1811", "page": 17},
-        {"title": "Observations on the Means for preventing the Dry Rot", "page": 19},
-        {"title": "Observations on the Means for preventing the Wet Rot", "page": 22},
-        {"title": "Observations on Smoky Chimnies, Public", "page": 24},
-        {"title": "Warming of Rooms", "page": 29},
-        {"title": "the present State of Ventilating Public Buildings", "page": 31},
-        {"title": "the Ventilating of Ships, by Dr. Hales", "page": 40},
-        {"title": "Observations on the Ventilating of Mines, by Mr. Taylor", "page": 48},
-        {"title": "Observations on the Safety of Buildings from Fire", "page": 50},
-        {"title": "POSTSCRIPT: Observations on Mr. Accum's Treatise on the Gas Lights", "page": 53},
-        {"title": "Observations on Mr. Bowden's Treatise on the Dry Rot", "page": 57},
-        {"title": "Circular Letter to the Landed Interest on the Management of Oak Timber", "page": 60}
+        {
+          "title": "Introduction",
+          "page": 1
+        },
+        {
+          "title": "Observations on the Drains and Sewers",
+          "page": 9
+        },
+        {
+          "title": "Observations on the Fogs of London",
+          "page": 12
+        },
+        {
+          "title": "Damp Walls",
+          "page": 14
+        },
+        {
+          "title": "Observations on the Dry Rot",
+          "page": 15
+        },
+        {
+          "title": "Report of a Survey on the Dry Rot in the Royal Navy, taken in Deptford Yard in 1811",
+          "page": 17
+        },
+        {
+          "title": "Observations on the Means for preventing the Dry Rot",
+          "page": 19
+        },
+        {
+          "title": "Observations on the Means for preventing the Wet Rot",
+          "page": 22
+        },
+        {
+          "title": "Observations on Smoky Chimnies, Public",
+          "page": 24
+        },
+        {
+          "title": "Warming of Rooms",
+          "page": 29
+        },
+        {
+          "title": "the present State of Ventilating Public Buildings",
+          "page": 31
+        },
+        {
+          "title": "the Ventilating of Ships, by Dr. Hales",
+          "page": 40
+        },
+        {
+          "title": "Observations on the Ventilating of Mines, by Mr. Taylor",
+          "page": 48
+        },
+        {
+          "title": "Observations on the Safety of Buildings from Fire",
+          "page": 50
+        },
+        {
+          "title": "POSTSCRIPT: Observations on Mr. Accum's Treatise on the Gas Lights",
+          "page": 53
+        },
+        {
+          "title": "Observations on Mr. Bowden's Treatise on the Dry Rot",
+          "page": 57
+        },
+        {
+          "title": "Circular Letter to the Landed Interest on the Management of Oak Timber",
+          "page": 60
+        }
       ],
       "context": "buildings_naval",
       "dry_rot_connection": "A buildings surveyor trained in Davy's chemistry, applying atmospheric theory to naval dry rot with Admiralty sanction. Fills the gap between Pering (1812) and Knowles (1821). His Deptford survey (Dec 1811) was prompted by the QC crisis and predates Sowerby's commission by seven months. Documents reforms already underway in the dockyards. The miasmatic framework (air, not fungi) shows that even with Sowerby's mycological work available, the dominant explanation remained atmospheric. The oak bark connection (spring vs winter felling) links the dry rot crisis to the bark/tanning industry — relevant to the user's other article."
@@ -3448,7 +3646,9 @@
     {
       "id": "src_burridge_1824",
       "title": "The Tanner's Key to a New System of Tanning Sole Leather, or the Right Use of Oak Bark, &c.",
-      "authors": ["John Burridge"],
+      "authors": [
+        "John Burridge"
+      ],
       "year": 1824,
       "publication": "London: printed for Charles Frederick Cock, 64, Paternoster-Row",
       "evidence_type": "treatise_and_petition",
@@ -3458,7 +3658,12 @@
       "author_description": "Author of 'Naval Dry Rot,' &c. — merchant of London, Nelson Square, Blackfriars-road",
       "previous_work": "Naval Dry Rot (date unknown, pre-1824) — a separate treatise on the origin, danger, effects, and remedies of naval dry rot",
       "local_file": "The_tanner_s_key_to_a_new_system_of_tann.pdf",
-      "terms_used": ["dry rot", "naval dry rot", "sap", "bark"],
+      "terms_used": [
+        "dry rot",
+        "naval dry rot",
+        "sap",
+        "bark"
+      ],
       "key_claims": [
         "CENTRAL ARGUMENT: The leather trade's demand for oak bark forced spring/summer felling of oaks, filling the timber with sap; the navy then built with this green sappy timber, causing dry rot. The abolition of winter-hewn oak dates to 'subsequently to 1792'",
         "'£250 worth of timber is thereby sacrificed, in order to save £25 worth of bark' (p. 97) — the economic ratio of naval loss to tanning profit",
@@ -3476,17 +3681,61 @@
         "Includes 'Observations on Mr. Bowden's Treatise on the Dry Rot' — references the Society of Arts gold medal winner"
       ],
       "contents": [
-        {"title": "Reviews of Leadenhall, Tanners; Free Trade, Repeal of Duty on Leather", "chapter": "I", "page": 1},
-        {"title": "New Tan-yards; proofs that old Tanners practice no Art; Barktrometers", "chapter": "II", "page": 9},
-        {"title": "Directions how to Tan Crop Hides in three or four months", "chapter": "III", "page": 19},
-        {"title": "General Rules to finish the Process; Barktrometers", "chapter": "IV", "page": 25},
-        {"title": "New Process with Terra Japonica; Sir H. Davy's Experiments proved incorrect", "chapter": "V", "page": 30},
-        {"title": "Additional Proofs, Rules; General Notes and Observations", "chapter": "VI", "page": 43},
-        {"title": "Correspondence with the Admiralty on Native Substitutes for Tannin", "chapter": "VII", "page": 61},
-        {"title": "Important Experiments by Sir H. Davy, of Oak, Elm Bark — His Errors", "chapter": "VIII", "page": 66},
-        {"title": "Proofs that Terra Japonica is ten times stronger than Oak Bark, at half prices", "chapter": "IX", "page": 81},
-        {"title": "Ireland — Native Substitutes for Oak Bark to prevent Naval Dry Rot by hewing Oaks in Winter", "chapter": "X", "page": 82},
-        {"title": "The Naval Dry Rot versus The Leather Trade — Petition to Parliament", "chapter": "XI", "page": 92}
+        {
+          "title": "Reviews of Leadenhall, Tanners; Free Trade, Repeal of Duty on Leather",
+          "chapter": "I",
+          "page": 1
+        },
+        {
+          "title": "New Tan-yards; proofs that old Tanners practice no Art; Barktrometers",
+          "chapter": "II",
+          "page": 9
+        },
+        {
+          "title": "Directions how to Tan Crop Hides in three or four months",
+          "chapter": "III",
+          "page": 19
+        },
+        {
+          "title": "General Rules to finish the Process; Barktrometers",
+          "chapter": "IV",
+          "page": 25
+        },
+        {
+          "title": "New Process with Terra Japonica; Sir H. Davy's Experiments proved incorrect",
+          "chapter": "V",
+          "page": 30
+        },
+        {
+          "title": "Additional Proofs, Rules; General Notes and Observations",
+          "chapter": "VI",
+          "page": 43
+        },
+        {
+          "title": "Correspondence with the Admiralty on Native Substitutes for Tannin",
+          "chapter": "VII",
+          "page": 61
+        },
+        {
+          "title": "Important Experiments by Sir H. Davy, of Oak, Elm Bark — His Errors",
+          "chapter": "VIII",
+          "page": 66
+        },
+        {
+          "title": "Proofs that Terra Japonica is ten times stronger than Oak Bark, at half prices",
+          "chapter": "IX",
+          "page": 81
+        },
+        {
+          "title": "Ireland — Native Substitutes for Oak Bark to prevent Naval Dry Rot by hewing Oaks in Winter",
+          "chapter": "X",
+          "page": 82
+        },
+        {
+          "title": "The Naval Dry Rot versus The Leather Trade — Petition to Parliament",
+          "chapter": "XI",
+          "page": 92
+        }
       ],
       "context": "naval_tanning_political",
       "dry_rot_connection": "Burridge's argument adds a fifth contingency to the assemblage: the leather trade's demand for oak bark forced spring/summer felling, filling naval timber with sap. This is NOT the same as Lambert's seasoning argument (wartime urgency) — Burridge says the problem predates the war and traces to the bark industry's economic incentives. The £250/£25 ratio and the petition to Parliament show this was a live political issue in the 1820s, parallel to the Canadian timber tariff debate. For the dry rot article, this belongs in §III (the timber strand) as evidence that green timber was not only a wartime emergency but a structural feature of the oak bark economy. For the oak bark article, this is a primary source."
@@ -3503,7 +3752,10 @@
       "notes_on_provenance": "The Phil Mag text is a word-for-word copy of a Plymouth dispatch dated Feb 17, 1818, also published in The Times on Feb 20, 1818. The original is a provincial naval report; Phil Mag and the Times both reprinted it.",
       "evidence_type": "scientific_periodical",
       "relevance": "direct",
-      "terms_used": ["dry rot", "vegetation"],
+      "terms_used": [
+        "dry rot",
+        "vegetation"
+      ],
       "key_quote": "Not a ship is taken into dock but is found to be nearly rotten. The very best ships do not average more than twelve years existence.",
       "key_claims": [
         "Names FIVE ships affected by dry rot: Eden (sloop), Topaze (frigate), Dartmouth (frigate, 3 years old, never at sea), San Domingo (74-gun, ripped up at 4 years at Portsmouth), Queen Charlotte (110-gun)",
@@ -3516,14 +3768,81 @@
         "QC 'built at Woolwich' — contradicts Times (Deptford) and Knowles (Deptford); may reflect confusion or multiple yards involved"
       ],
       "ships_named": [
-        {"name": "Eden", "type": "sloop", "fate": "sunk in Hamoaze to cure dry rot, then found defective in every part"},
-        {"name": "Topaze", "type": "frigate", "fate": "ordered for commission, found in same state after recent repair"},
-        {"name": "Dartmouth", "type": "frigate", "built_at": "Dartmouth", "age": "3 years", "fate": "never at sea, undergoing complete repair"},
-        {"name": "San Domingo", "type": "74-gun", "age": "4 years", "fate": "ripped up at Portsmouth"},
-        {"name": "Queen Charlotte", "type": "110-gun", "built_at": "Woolwich (sic)", "fate": "found rotten, Lukin's treatment failed, laid up at Portsmouth in very defective state"}
+        {
+          "name": "Eden",
+          "type": "sloop",
+          "fate": "sunk in Hamoaze to cure dry rot, then found defective in every part"
+        },
+        {
+          "name": "Topaze",
+          "type": "frigate",
+          "fate": "ordered for commission, found in same state after recent repair"
+        },
+        {
+          "name": "Dartmouth",
+          "type": "frigate",
+          "built_at": "Dartmouth",
+          "age": "3 years",
+          "fate": "never at sea, undergoing complete repair"
+        },
+        {
+          "name": "San Domingo",
+          "type": "74-gun",
+          "age": "4 years",
+          "fate": "ripped up at Portsmouth"
+        },
+        {
+          "name": "Queen Charlotte",
+          "type": "110-gun",
+          "built_at": "Woolwich (sic)",
+          "fate": "found rotten, Lukin's treatment failed, laid up at Portsmouth in very defective state"
+        }
       ],
       "context": "naval_scientific",
       "dry_rot_connection": "A scientific periodical reporting the fleet-wide dry rot crisis with specific ship names, ages, and costs. Published 1818 — between the naval crisis (1811-14) and the parliamentary inquiries (1820-21). Shows the scientific community was registering the scale of the disaster. The £5,000 Lukin payment is new evidence. The sinking of Eden in Hamoaze as a 'cure' for dry rot is a remarkable example of pre-scientific treatment."
+    },
+    {
+      "id": "src_forest_sea_power",
+      "title": "Forests and Sea Power: The Timber Problem of the Royal Navy 1652-1862",
+      "authors": [
+        "Robert G. Albion"
+      ],
+      "year": 1926,
+      "publication": "Harvard University Press",
+      "evidence_type": "modern_secondary",
+      "relevance": "The classic study of British naval timber supply. Lambert (1991) is the explicit revision of Albion. Cited as the authority for ~25 of the dry-rot ship cases in the Navy Dry Rot xlsx database.",
+      "notes": "The paper's 'against Albion' position concerns Albion's 'timber famine' thesis — that dry rot was a symptom of absolute scarcity. Lambert (1991) and the assemblage argument both reject Albion's framing while drawing on his ship-level documentation.",
+      "wikidata_qid": null
+    },
+    {
+      "id": "src_canada_returns_1812",
+      "title": "Account of Timber and Other Wood Exported from Lower Canada, 1802-1810",
+      "authors": null,
+      "year": 1812,
+      "publication": "Parliamentary Papers (House of Commons)",
+      "evidence_type": "official_statistical_return",
+      "relevance": "Annual export statistics from Lower Canada (Quebec) by timber category. Documents the wartime substitution: oak timber pieces from 1,607 (1802) to 8,178 (1806); pine staves from 586,949 (1802) to 1,808,234 (1806). Directly supports §III timber strand argument.",
+      "url": "https://parlipapers.proquest.com/parlipapers/docview/t70.d75.1812-002906?accountid=14739",
+      "categories": [
+        "Oak Timber",
+        "Pine Timber",
+        "Walnut/Cherry",
+        "Oak Staves and Heading",
+        "Stave Ends",
+        "Masts",
+        "Bowsprits",
+        "Pine Spars",
+        "Handspikes",
+        "Lathwood",
+        "Red Cedar",
+        "Oak Plank",
+        "Pine Boards and Plank",
+        "Scantling",
+        "Oars",
+        "Hoops",
+        "Shingles",
+        "Pot and Pearl Ashes"
+      ]
     }
   ],
   "events": [
@@ -3646,7 +3965,12 @@
       "built_at": "Deptford dock-yard",
       "timber": "Canada oak and American pitch pine (Knowles p.117)",
       "gun_count_actual": 104,
-      "gun_count_reported": {"times_sept_1811": 120, "times_july_1812": 110, "phil_mag_1818": 110, "knowles_1821": 100},
+      "gun_count_reported": {
+        "times_sept_1811": 120,
+        "times_july_1812": 110,
+        "phil_mag_1818": 110,
+        "knowles_1821": 100
+      },
       "significance": "Emblematic of the naval dry rot crisis. Rot discovered incidentally during caulking (Sept 1811 Times). Fumigated — failed (July 1812 Times). Stripped of every top-timber and tree-nail before Sowerby inspected (July 24-25, 1812). Never served at sea 'except in the passage from Deptford to Plymouth' (Times July 1812). Lukin received £5,000 for ineffectual chemical treatment (Phil Mag 1818). The ship was built from the crisis, of the crisis, and never used.",
       "timeline": [
         "Oct 1805: keel laid (Knowles p.117)",
@@ -3860,7 +4184,8 @@
       "description": "Ship hull destruction by Teredo worms — the dominant pre-1750 threat to ship timber",
       "dominant_period": "1665-1780s",
       "key_proponents": [],
-      "implications_for_dry_rot": "The worm problem dominated ship preservation discourse; when a NEW kind of timber decay appeared (dry rot), it took time to distinguish from existing problems"
+      "implications_for_dry_rot": "The worm problem dominated ship preservation discourse; when a NEW kind of timber decay appeared (dry rot), it took time to distinguish from existing problems",
+      "orphan_rationale": "background_concept_not_active_in_dry_rot_argument"
     }
   ],
   "relationships": [
@@ -4787,29 +5112,1040 @@
       "type": "DOCUMENTS",
       "year": 1818,
       "notes": "'Dr. Lukin, an Admiralty chemist, who received 5000l. for his ineffectual labours to stop the progress of vegetation in the ship.' Names both the person and the cost of failure."
+    },
+    {
+      "source": "per_denman",
+      "target": "src_denman_1795",
+      "type": "AUTHORED",
+      "notes": "Denman wrote Some Observations on that Distemper in Timber called the Dry Rot (1795)"
+    },
+    {
+      "source": "per_pering",
+      "target": "src_pering_1812",
+      "type": "AUTHORED",
+      "notes": "Pering wrote A Treatise on the Anchor (1812) section on dry rot at Plymouth Dock"
+    },
+    {
+      "source": "per_bowden",
+      "target": "src_bowden_1815",
+      "type": "AUTHORED",
+      "notes": "Bowden wrote A Treatise on Dry Rot (1815); awarded Society of Arts gold medal 1818"
+    },
+    {
+      "source": "per_burridge",
+      "target": "src_burridge_1824",
+      "type": "AUTHORED",
+      "notes": "Burridge wrote The Tanner's Key (1824), Naval Dry Rot section"
+    },
+    {
+      "source": "per_gregson",
+      "target": "src_gregson_1816",
+      "type": "AUTHORED",
+      "notes": "Gregson wrote An Essay on those Defects of Buildings dependant on the Nature and Properties of Air (1816)"
+    },
+    {
+      "source": "per_hales",
+      "target": "src_hales_1758",
+      "type": "AUTHORED",
+      "notes": "Hales wrote A Treatise on Ventilators (1758)"
+    },
+    {
+      "source": "per_withering",
+      "target": "src_withering_1792",
+      "type": "AUTHORED",
+      "notes": "Withering wrote the 2nd edition of A Botanical Arrangement (1792), adding Boletus lachrymans absent from the 1776 1st edition"
+    },
+    {
+      "source": "per_markham",
+      "target": "src_markham_1804",
+      "type": "AUTHORED",
+      "notes": "Markham's 1804 Commons speech on naval supply"
+    },
+    {
+      "source": "per_knowles",
+      "target": "src_knowles_1821",
+      "type": "AUTHORED",
+      "notes": "Knowles wrote An Inquiry into the Means which have been taken to Preserve the British Navy (1821)"
+    },
+    {
+      "source": "per_lambert",
+      "target": "src_lambert",
+      "type": "AUTHORED",
+      "notes": "Lambert wrote The Last Sailing Battlefleet (1991), Ch. 3 Timber"
+    },
+    {
+      "source": "src_hoc_journals_1774",
+      "target": "inst_parliament",
+      "type": "OFFICIAL_RECORD",
+      "notes": "House of Commons Journals — first appearance of \"dry rot\" for timber (church floors)"
+    },
+    {
+      "source": "src_1820_lords_timber",
+      "target": "inst_parliament",
+      "type": "OFFICIAL_RECORD",
+      "notes": "Lords Select Committee on Timber, 1820 (111pp)"
+    },
+    {
+      "source": "src_1821_commons_timber",
+      "target": "inst_parliament",
+      "type": "OFFICIAL_RECORD",
+      "notes": "Commons Select Committee on Timber, 1821 (184pp)"
+    },
+    {
+      "source": "src_society_arts_1783",
+      "target": "inst_society_arts",
+      "type": "OFFICIAL_RECORD",
+      "notes": "Society of Arts Transactions: gold medal for dry rot prevention first offered"
+    },
+    {
+      "source": "per_pringle",
+      "target": "inst_royal_society",
+      "type": "MEMBER_OF",
+      "notes": "PRS 1772-1778"
+    },
+    {
+      "source": "per_banks",
+      "target": "inst_royal_society",
+      "type": "MEMBER_OF",
+      "notes": "PRS 1778-1820"
+    },
+    {
+      "source": "per_pepys",
+      "target": "inst_royal_society",
+      "type": "MEMBER_OF",
+      "notes": "PRS 1684-1686; FRS"
+    },
+    {
+      "source": "per_hales",
+      "target": "inst_royal_society",
+      "type": "MEMBER_OF",
+      "notes": "FRS, gave 1755 alarm at the Society"
+    },
+    {
+      "source": "per_mahon",
+      "target": "inst_royal_society",
+      "type": "MEMBER_OF",
+      "notes": "FRS; 1778 Phil Trans paper on dry rot"
+    },
+    {
+      "source": "per_cook",
+      "target": "inst_royal_society",
+      "type": "MEMBER_OF",
+      "notes": "FRS; received Hartley's 1776 paper"
+    },
+    {
+      "source": "per_priestley",
+      "target": "inst_royal_society",
+      "type": "MEMBER_OF",
+      "notes": "FRS"
+    },
+    {
+      "source": "per_watson_william",
+      "target": "inst_royal_society",
+      "type": "MEMBER_OF",
+      "notes": "FRS"
+    },
+    {
+      "source": "per_king_edward",
+      "target": "inst_royal_society",
+      "type": "MEMBER_OF",
+      "notes": "FRS"
+    },
+    {
+      "source": "per_smeathman",
+      "target": "inst_royal_society",
+      "type": "MEMBER_OF",
+      "notes": "FRS"
+    },
+    {
+      "source": "per_chambers",
+      "target": "inst_royal_society",
+      "type": "MEMBER_OF",
+      "notes": "FRS; architect of Somerset House"
+    },
+    {
+      "source": "per_hartley",
+      "target": "inst_royal_society",
+      "type": "MEMBER_OF",
+      "notes": "FRS, MP"
+    },
+    {
+      "source": "per_mann",
+      "target": "inst_royal_society",
+      "type": "MEMBER_OF",
+      "notes": "FRS"
+    },
+    {
+      "source": "per_knight",
+      "target": "inst_royal_society",
+      "type": "MEMBER_OF",
+      "notes": "FRS, horticulturist"
+    },
+    {
+      "source": "per_mead",
+      "target": "inst_royal_society",
+      "type": "MEMBER_OF",
+      "notes": "FRS"
+    },
+    {
+      "source": "per_miles",
+      "target": "inst_royal_society",
+      "type": "MEMBER_OF",
+      "notes": "FRS, clergyman"
+    },
+    {
+      "source": "per_pringle",
+      "target": "inst_royal_society",
+      "type": "PRESIDED_OVER",
+      "notes": "President 1772-1778",
+      "year_range": "1772-1778"
+    },
+    {
+      "source": "per_banks",
+      "target": "inst_royal_society",
+      "type": "PRESIDED_OVER",
+      "notes": "President 1778-1820 (42 years)",
+      "year_range": "1778-1820"
+    },
+    {
+      "source": "per_st_vincent",
+      "target": "inst_admiralty",
+      "type": "SERVED_AS",
+      "notes": "First Lord of the Admiralty 1801-1804"
+    },
+    {
+      "source": "per_byam_martin",
+      "target": "inst_navy_board",
+      "type": "SERVED_AS",
+      "notes": "Comptroller of the Navy 1815-1831"
+    },
+    {
+      "source": "per_seppings",
+      "target": "inst_navy_board",
+      "type": "SERVED_AS",
+      "notes": "Surveyor of the Navy 1813-1832"
+    },
+    {
+      "source": "per_rule",
+      "target": "inst_navy_board",
+      "type": "SERVED_AS",
+      "notes": "Surveyor of the Navy"
+    },
+    {
+      "source": "per_hartwell",
+      "target": "inst_navy_board",
+      "type": "SERVED_AS",
+      "notes": "Commissioner of the Navy"
+    },
+    {
+      "source": "per_legge",
+      "target": "inst_navy_board",
+      "type": "SERVED_AS",
+      "notes": "Commissioner of the Navy"
+    },
+    {
+      "source": "per_thompson_tb",
+      "target": "inst_navy_board",
+      "type": "SERVED_AS",
+      "notes": "Commissioner of the Navy"
+    },
+    {
+      "source": "per_knowles",
+      "target": "inst_navy_board",
+      "type": "SERVED_AS",
+      "notes": "Secretary to the Committee of Surveyors"
+    },
+    {
+      "source": "per_lukin",
+      "target": "inst_navy_board",
+      "type": "CONSULTED_FOR",
+      "notes": "Navy consultant on timber preservation; stove-heating method"
+    },
+    {
+      "source": "per_sowerby",
+      "target": "inst_navy_board",
+      "type": "CONSULTED_FOR",
+      "notes": "Commissioned 1812 to inspect QC; awarded 200 guineas Jan 1814"
+    },
+    {
+      "source": "per_bowden",
+      "target": "inst_society_arts",
+      "type": "AWARDED_BY",
+      "notes": "Won the Society of Arts gold medal for dry rot prevention in 1818 (35 years after first offered)",
+      "year": 1818
+    },
+    {
+      "source": "ship_spencer_1800",
+      "target": "src_forest_sea_power",
+      "type": "DOCUMENTED_IN",
+      "notes": "Spencer dry rot case documented in source"
+    },
+    {
+      "source": "ship_albion_1802",
+      "target": "src_forest_sea_power",
+      "type": "DOCUMENTED_IN",
+      "notes": "Albion dry rot case documented in source"
+    },
+    {
+      "source": "ship_scepter_1803",
+      "target": "src_forest_sea_power",
+      "type": "DOCUMENTED_IN",
+      "notes": "Scepter dry rot case documented in source"
+    },
+    {
+      "source": "ship_rodney_1809",
+      "target": "src_forest_sea_power",
+      "type": "DOCUMENTED_IN",
+      "notes": "Rodney dry rot case documented in source"
+    },
+    {
+      "source": "ship_dublin_1812",
+      "target": "src_forest_sea_power",
+      "type": "DOCUMENTED_IN",
+      "notes": "Dublin dry rot case documented in source"
+    },
+    {
+      "source": "ship_queen_charlotte_1810",
+      "target": "src_forest_sea_power",
+      "type": "DOCUMENTED_IN",
+      "notes": "Queen Charlotte, dry rot case documented in source"
+    },
+    {
+      "source": "ship_queen_charlotte_1810",
+      "target": "src_knowles_1821",
+      "type": "DOCUMENTED_IN",
+      "notes": "Queen Charlotte, dry rot case documented in source"
+    },
+    {
+      "source": "ship_ajax_1798",
+      "target": "src_forest_sea_power",
+      "type": "DOCUMENTED_IN",
+      "notes": "Ajax dry rot case documented in source"
+    },
+    {
+      "source": "ship_america_1810",
+      "target": "src_forest_sea_power",
+      "type": "DOCUMENTED_IN",
+      "notes": "America dry rot case documented in source"
+    },
+    {
+      "source": "ship_foudroyant_1798",
+      "target": "src_forest_sea_power",
+      "type": "DOCUMENTED_IN",
+      "notes": "Foudroyant dry rot case documented in source"
+    },
+    {
+      "source": "ship_foudroyant_1798",
+      "target": "src_1820_lords_timber",
+      "type": "DOCUMENTED_IN",
+      "notes": "Foudroyant dry rot case documented in source"
+    },
+    {
+      "source": "ship_la_hogue_1811",
+      "target": "src_forest_sea_power",
+      "type": "DOCUMENTED_IN",
+      "notes": "La Hogue dry rot case documented in source"
+    },
+    {
+      "source": "ship_mulgrave_1812",
+      "target": "src_forest_sea_power",
+      "type": "DOCUMENTED_IN",
+      "notes": "Mulgrave dry rot case documented in source"
+    },
+    {
+      "source": "ship_ocean_1805",
+      "target": "src_forest_sea_power",
+      "type": "DOCUMENTED_IN",
+      "notes": "Ocean dry rot case documented in source"
+    },
+    {
+      "source": "ship_stirling_castle_1812",
+      "target": "src_forest_sea_power",
+      "type": "DOCUMENTED_IN",
+      "notes": "Stirling Castle dry rot case documented in source"
+    },
+    {
+      "source": "ship_blake_1808",
+      "target": "src_forest_sea_power",
+      "type": "DOCUMENTED_IN",
+      "notes": "Blake dry rot case documented in source"
+    },
+    {
+      "source": "ship_devonshire_1812",
+      "target": "src_forest_sea_power",
+      "type": "DOCUMENTED_IN",
+      "notes": "Devonshire dry rot case documented in source"
+    },
+    {
+      "source": "ship_halifax_1806",
+      "target": "src_knowles_1821",
+      "type": "DOCUMENTED_IN",
+      "notes": "Halifax dry rot case documented in source"
+    },
+    {
+      "source": "ship_cydnus_1813",
+      "target": "src_knowles_1821",
+      "type": "DOCUMENTED_IN",
+      "notes": "Cydnus dry rot case documented in source"
+    },
+    {
+      "source": "ship_eurotas_1813",
+      "target": "src_knowles_1821",
+      "type": "DOCUMENTED_IN",
+      "notes": "Eurotas dry rot case documented in source"
+    },
+    {
+      "source": "ship_niger_1813",
+      "target": "src_knowles_1821",
+      "type": "DOCUMENTED_IN",
+      "notes": "Niger dry rot case documented in source"
+    },
+    {
+      "source": "ship_meander_1813",
+      "target": "src_knowles_1821",
+      "type": "DOCUMENTED_IN",
+      "notes": "Meander dry rot case documented in source"
+    },
+    {
+      "source": "ship_pactolus_1813",
+      "target": "src_knowles_1821",
+      "type": "DOCUMENTED_IN",
+      "notes": "Pactolus dry rot case documented in source"
+    },
+    {
+      "source": "ship_tiber_1813",
+      "target": "src_knowles_1821",
+      "type": "DOCUMENTED_IN",
+      "notes": "Tiber dry rot case documented in source"
+    },
+    {
+      "source": "ship_araxes_1813",
+      "target": "src_knowles_1821",
+      "type": "DOCUMENTED_IN",
+      "notes": "Araxes dry rot case documented in source"
+    },
+    {
+      "source": "ship_tanais_1813",
+      "target": "src_knowles_1821",
+      "type": "DOCUMENTED_IN",
+      "notes": "Tanais dry rot case documented in source"
+    },
+    {
+      "source": "ship_tagus_1813",
+      "target": "src_knowles_1821",
+      "type": "DOCUMENTED_IN",
+      "notes": "Tagus dry rot case documented in source"
+    },
+    {
+      "source": "ship_eridanus_1813",
+      "target": "src_knowles_1821",
+      "type": "DOCUMENTED_IN",
+      "notes": "Eridanus dry rot case documented in source"
+    },
+    {
+      "source": "ship_tigris_1813",
+      "target": "src_knowles_1821",
+      "type": "DOCUMENTED_IN",
+      "notes": "Tigris dry rot case documented in source"
+    },
+    {
+      "source": "ship_ister_1813",
+      "target": "src_knowles_1821",
+      "type": "DOCUMENTED_IN",
+      "notes": "Ister dry rot case documented in source"
+    },
+    {
+      "source": "ship_scamander_1813",
+      "target": "src_knowles_1821",
+      "type": "DOCUMENTED_IN",
+      "notes": "Scamander dry rot case documented in source"
+    },
+    {
+      "source": "ship_orontes_1813",
+      "target": "src_knowles_1821",
+      "type": "DOCUMENTED_IN",
+      "notes": "Orontes dry rot case documented in source"
+    },
+    {
+      "source": "ship_euphrates_1813",
+      "target": "src_knowles_1821",
+      "type": "DOCUMENTED_IN",
+      "notes": "Euphrates dry rot case documented in source"
+    },
+    {
+      "source": "ship_hebrus_1813",
+      "target": "src_knowles_1821",
+      "type": "DOCUMENTED_IN",
+      "notes": "Hebrus dry rot case documented in source"
+    },
+    {
+      "source": "ship_grainicus_1813",
+      "target": "src_knowles_1821",
+      "type": "DOCUMENTED_IN",
+      "notes": "Grainicus dry rot case documented in source"
+    },
+    {
+      "source": "ship_alpheus_1814",
+      "target": "src_knowles_1821",
+      "type": "DOCUMENTED_IN",
+      "notes": "Alpheus dry rot case documented in source"
+    },
+    {
+      "source": "ship_spencer_1800",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Spencer reported as having dry rot",
+      "year": 1802
+    },
+    {
+      "source": "ship_albion_1802",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Albion reported as having dry rot",
+      "year": 1806
+    },
+    {
+      "source": "ship_rodney_1809",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Rodney reported as having dry rot",
+      "year": 1812
+    },
+    {
+      "source": "ship_dublin_1812",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Dublin reported as having dry rot",
+      "year": 1812
+    },
+    {
+      "source": "ship_queen_charlotte_1810",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Queen Charlotte, reported as having dry rot",
+      "year": 1810
+    },
+    {
+      "source": "ship_ajax_1798",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Ajax reported as having dry rot",
+      "year": 1802
+    },
+    {
+      "source": "ship_america_1810",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "America reported as having dry rot",
+      "year": 1814
+    },
+    {
+      "source": "ship_foudroyant_1798",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Foudroyant reported as having dry rot",
+      "year": 1802
+    },
+    {
+      "source": "ship_la_hogue_1811",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "La Hogue reported as having dry rot",
+      "year": 1814
+    },
+    {
+      "source": "ship_mulgrave_1812",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Mulgrave reported as having dry rot",
+      "year": 1815
+    },
+    {
+      "source": "ship_ocean_1805",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Ocean reported as having dry rot",
+      "year": 1811
+    },
+    {
+      "source": "ship_stirling_castle_1812",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Stirling Castle reported as having dry rot",
+      "year": 1816
+    },
+    {
+      "source": "ship_blake_1808",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Blake reported as having dry rot",
+      "year": 1813
+    },
+    {
+      "source": "ship_devonshire_1812",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Devonshire reported as having dry rot",
+      "year": 1817
+    },
+    {
+      "source": "ship_superb_1798",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Superb reported as having dry rot",
+      "year": 1809
+    },
+    {
+      "source": "ship_achille_1798",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Achille reported as having dry rot",
+      "year": 1802
+    },
+    {
+      "source": "ship_resolution",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Resolution reported as having dry rot",
+      "year": null
+    },
+    {
+      "source": "ship_thunderer",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Thunderer reported as having dry rot",
+      "year": null
+    },
+    {
+      "source": "ship_monarch",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Monarch reported as having dry rot",
+      "year": null
+    },
+    {
+      "source": "ship_culoden",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Culoden reported as having dry rot",
+      "year": null
+    },
+    {
+      "source": "ship_ardent",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Ardent reported as having dry rot",
+      "year": null
+    },
+    {
+      "source": "ship_st_domingo_1809",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "St. Domingo reported as having dry rot",
+      "year": 1814
+    },
+    {
+      "source": "ship_dreadnought_1801",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Dreadnought reported as having dry rot",
+      "year": null
+    },
+    {
+      "source": "ship_boyne_1810",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Boyne reported as having dry rot",
+      "year": 1819
+    },
+    {
+      "source": "ship_genoa",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Genoa reported as having dry rot",
+      "year": 1823
+    },
+    {
+      "source": "ship_halifax_1806",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Halifax reported as having dry rot",
+      "year": 1812
+    },
+    {
+      "source": "ship_cydnus_1813",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Cydnus reported as having dry rot",
+      "year": 1815
+    },
+    {
+      "source": "ship_eurotas_1813",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Eurotas reported as having dry rot",
+      "year": 1816
+    },
+    {
+      "source": "ship_niger_1813",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Niger reported as having dry rot",
+      "year": 1816
+    },
+    {
+      "source": "ship_meander_1813",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Meander reported as having dry rot",
+      "year": 1816
+    },
+    {
+      "source": "ship_pactolus_1813",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Pactolus reported as having dry rot",
+      "year": 1817
+    },
+    {
+      "source": "ship_tiber_1813",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Tiber reported as having dry rot",
+      "year": 1818
+    },
+    {
+      "source": "ship_araxes_1813",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Araxes reported as having dry rot",
+      "year": 1816
+    },
+    {
+      "source": "ship_tanais_1813",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Tanais reported as having dry rot",
+      "year": 1816
+    },
+    {
+      "source": "ship_tagus_1813",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Tagus reported as having dry rot",
+      "year": 1816
+    },
+    {
+      "source": "ship_eridanus_1813",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Eridanus reported as having dry rot",
+      "year": 1817
+    },
+    {
+      "source": "ship_tigris_1813",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Tigris reported as having dry rot",
+      "year": 1817
+    },
+    {
+      "source": "ship_ister_1813",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Ister reported as having dry rot",
+      "year": 1818
+    },
+    {
+      "source": "ship_scamander_1813",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Scamander reported as having dry rot",
+      "year": 1816
+    },
+    {
+      "source": "ship_orontes_1813",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Orontes reported as having dry rot",
+      "year": 1817
+    },
+    {
+      "source": "ship_euphrates_1813",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Euphrates reported as having dry rot",
+      "year": 1817
+    },
+    {
+      "source": "ship_hebrus_1813",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Hebrus reported as having dry rot",
+      "year": 1816
+    },
+    {
+      "source": "ship_grainicus_1813",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Grainicus reported as having dry rot",
+      "year": 1816
+    },
+    {
+      "source": "ship_alpheus_1814",
+      "target": "org_serpula_lacrymans",
+      "type": "HAD_DRY_ROT",
+      "notes": "Alpheus reported as having dry rot",
+      "year": 1816
+    },
+    {
+      "source": "ship_queen_charlotte_1810",
+      "target": "evt_hms_queen_charlotte",
+      "type": "DOCUMENTED_AS",
+      "notes": "Ship entity corresponds to documented event"
+    },
+    {
+      "source": "src_canada_returns_1812",
+      "target": "evt_st_vincent_timber",
+      "type": "DOCUMENTS",
+      "notes": "Lower Canada exports 1802-1810 document the timber substitution St Vincent's administration set in motion"
+    },
+    {
+      "source": "evt_britannica_natural_history_1778",
+      "target": "src_britannica_natural_history_1778",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_britannica_dry_rot_article_1823",
+      "target": "src_britannica_1823",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_britannica_reorganization_1842",
+      "target": "src_britannica_timber_1842",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_britannica_lloyds_table_1860",
+      "target": "src_britannica_1860",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_mahon_term",
+      "target": "src_mahon_1778",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_hales_alarm",
+      "target": "src_hales_1755",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_keate_v_adams",
+      "target": "src_times_1785_keate_v_adams",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_withering_addition",
+      "target": "src_withering_1792",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_sowerby_classification",
+      "target": "src_sowerby_1797",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_gent_mag_dry_rot",
+      "target": "src_gent_mag_1797",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_woolwich_ship_1798",
+      "target": "src_european_mag_1811",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_pepys_toadstools",
+      "target": "src_pepys_1690",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_pepys_timber_conference",
+      "target": "src_pepys_1690",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_30_ships_crisis",
+      "target": "src_pepys_1690",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_st_vincent_timber",
+      "target": "src_lambert",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_markham_speech",
+      "target": "src_markham_1804",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_lukin_kiln_explosion",
+      "target": "src_britton_1875_timeline",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_times_qc_discovery",
+      "target": "src_times_1811_qc_discovery",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_times_qc_fumigation_failed",
+      "target": "src_times_1812_qc_fumigation",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_sowerby_navy_commission",
+      "target": "src_sowerby_1812_navy",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_sowerby_qc_inspection",
+      "target": "src_sowerby_1812_navy",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_sowerby_report_adopted",
+      "target": "src_sowerby_1812_navy",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_sowerby_dockyard_inspections",
+      "target": "src_sowerby_1812_navy",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_sowerby_timber_stacks",
+      "target": "src_sowerby_1812_navy",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_sowerby_payment",
+      "target": "src_sowerby_1812_navy",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_1820_lords_inquiry",
+      "target": "src_1820_lords_timber",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "evt_1821_commons_inquiry",
+      "target": "src_1821_commons_timber",
+      "type": "DOCUMENTED_IN",
+      "notes": "Event documented in source (auto-wired from source_id property)"
+    },
+    {
+      "source": "per_adam_robert",
+      "target": "evt_keate_v_adams",
+      "type": "DEFENDANT_IN",
+      "notes": "Robert Adam was defendant; Adelphi was Society of Arts HQ"
+    },
+    {
+      "source": "per_banks",
+      "target": "evt_keate_v_adams",
+      "type": "TESTIFIED_IN",
+      "notes": "Banks testified as expert witness on dry rot"
+    },
+    {
+      "source": "per_sutton",
+      "target": "src_mead_sutton_1742",
+      "type": "AUTHORED",
+      "notes": "Co-authored 1742 Phil Trans paper on ship ventilation"
+    },
+    {
+      "source": "per_mead",
+      "target": "src_mead_sutton_1742",
+      "type": "COMMUNICATED_PAPER_FOR",
+      "notes": "Mead communicated Sutton's ventilation paper to RS 1742"
+    },
+    {
+      "source": "per_leeuwenhoek",
+      "target": "src_leeuwenhoek_1694",
+      "type": "AUTHORED",
+      "notes": "Leeuwenhoek microscopical observations"
+    },
+    {
+      "source": "per_mcwilliam",
+      "target": "src_mcwilliam_1818",
+      "type": "AUTHORED",
+      "notes": "M'William's work"
+    },
+    {
+      "source": "src_european_mag_1811",
+      "target": "evt_woolwich_ship_1798",
+      "type": "DESCRIBES",
+      "notes": "European Magazine Dec 1811: NAUTICUS letter describing Woolwich ship c.1798"
+    },
+    {
+      "source": "per_britton",
+      "target": "src_britton_1875_timeline",
+      "type": "AUTHORED",
+      "notes": "Britton compiled the historical timeline of timber preservation methods"
     }
   ],
   "modern_scholarship": [
     {
       "id": "ref_kauserud_2007",
       "citation": "Kauserud, H. et al. (2007) 'Asian origin and rapid global spread of the destructive dry rot fungus Serpula lacrymans', Molecular Ecology 16(16): 3350-3360.",
-      "significance": "Landmark phylogeographic study. Multiple gene genealogies demonstrate European indoor populations derived from Asian wild populations. Reduced genetic diversity in Europe consistent with founder event."
+      "significance": "Landmark phylogeographic study. Multiple gene genealogies demonstrate European indoor populations derived from Asian wild populations. Reduced genetic diversity in Europe consistent with founder event.",
+      "orphan_rationale": "reference_only"
     },
     {
       "id": "ref_ramsbottom_1937",
       "citation": "Ramsbottom, J. (1937) 'Dry Rot in Ships', Essex Naturalist.",
-      "significance": "Classic early academic treatment of the naval dry rot history. Should be consulted for primary source references."
+      "significance": "Classic early academic treatment of the naval dry rot history. Should be consulted for primary source references.",
+      "orphan_rationale": "reference_only"
     },
     {
       "id": "ref_ridout_2000",
       "citation": "Ridout, B. (2000) Timber Decay in Buildings: The Conservation Approach to Treatment. London: E&FN Spon/Routledge.",
-      "significance": "Provides historical context for understanding dry rot in British buildings."
+      "significance": "Provides historical context for understanding dry rot in British buildings.",
+      "orphan_rationale": "reference_only"
     },
     {
       "id": "ref_oed",
       "citation": "Oxford English Dictionary, entry for 'dry rot'",
       "significance": "Should contain the earliest documented uses with citations. Flagged as likely the most efficient way to verify our 1725/1774 findings.",
-      "status": "not_yet_consulted"
+      "status": "not_yet_consulted",
+      "orphan_rationale": "reference_only"
     }
   ],
   "open_questions": [
@@ -4820,12 +6156,14 @@
       "suggested_sources": [
         "National Archives ADM series",
         "Navy Board correspondence"
-      ]
+      ],
+      "orphan_rationale": "research_log_entry"
     },
     {
       "id": "q2",
       "question": "Does the Gentleman's Magazine or other 18th-century periodicals use the term before Mahon 1778?",
-      "significance": "Would narrow the date of entry into common usage"
+      "significance": "Would narrow the date of entry into common usage",
+      "orphan_rationale": "research_log_entry"
     },
     {
       "id": "q3",
@@ -4833,27 +6171,32 @@
       "significance": "Hales (1755) identifies the problem in harbour ships — Admiralty records would show whether it worsened",
       "suggested_sources": [
         "Navy Board surveys of ships in ordinary"
-      ]
+      ],
+      "orphan_rationale": "research_log_entry"
     },
     {
       "id": "q4",
       "question": "Can we find builder's manuals or trade literature from 1750-1780 that discuss dry rot?",
-      "significance": "Mahon's casual use in 1778 implies builders already knew the term"
+      "significance": "Mahon's casual use in 1778 implies builders already knew the term",
+      "orphan_rationale": "research_log_entry"
     },
     {
       "id": "q5",
       "question": "What timber was being used in British shipbuilding 1750-1800, and did sourcing change?",
-      "significance": "Imported Baltic timber (different species, different drying) may have been more susceptible to Serpula colonisation"
+      "significance": "Imported Baltic timber (different species, different drying) may have been more susceptible to Serpula colonisation",
+      "orphan_rationale": "research_log_entry"
     },
     {
       "id": "q6",
       "question": "Are there parliamentary enquiries into naval timber quality before the well-known 1812 commission?",
-      "significance": "Would bridge the gap between Hales 1755 and the post-1800 crisis literature"
+      "significance": "Would bridge the gap between Hales 1755 and the post-1800 crisis literature",
+      "orphan_rationale": "research_log_entry"
     },
     {
       "id": "q7",
       "question": "What is the relationship between the building construction boom of the 18th century and Serpula spread?",
-      "significance": "Mahon's 1778 reference is about buildings — was the construction boom creating ideal Serpula habitat?"
+      "significance": "Mahon's 1778 reference is about buildings — was the construction boom creating ideal Serpula habitat?",
+      "orphan_rationale": "research_log_entry"
     },
     {
       "id": "q8",
@@ -4862,7 +6205,8 @@
       "suggested_sources": [
         "European Magazine, December 1811",
         "British Periodicals databases"
-      ]
+      ],
+      "orphan_rationale": "research_log_entry"
     },
     {
       "id": "q9",
@@ -4871,7 +6215,8 @@
       "suggested_sources": [
         "Banks Papers at British Library/Natural History Museum",
         "Royal Society archives"
-      ]
+      ],
+      "orphan_rationale": "research_log_entry"
     },
     {
       "id": "q10",
@@ -4880,7 +6225,8 @@
       "suggested_sources": [
         "Hartley's publications and Parliamentary testimony",
         "House of Commons records"
-      ]
+      ],
+      "orphan_rationale": "research_log_entry"
     },
     {
       "id": "q11",
@@ -4888,19 +6234,22 @@
       "significance": "The Times archive is searchable — a systematic search could find earlier uses.",
       "suggested_sources": [
         "Times Digital Archive via Gale"
-      ]
+      ],
+      "orphan_rationale": "research_log_entry"
     },
     {
       "id": "q12",
       "question": "Can we identify the specific fungi Britton distinguishes as Polyporus hybridus ('the dry rot of oak-built vessels') vs Merulius lachrymans ('the Dry Rot' of buildings)?",
       "significance": "Britton implies different organisms attacked ships (oak) vs buildings (fir/pine). This two-organism model could explain why the building dry rot crisis and the naval dry rot crisis appear as separate threads in the evidence.",
-      "status": "SUBSTANTIALLY ANSWERED (April 2026). Boletus hybridus Sowerby (EF Tab. 289) = Fibroporia vaillantii (DC.) Parmasto 1968, confirmed by GBIF, MycoDB, Index Fungorum, MycoBank, and Petersen (1983) Mycotaxon 17: 148-230. Transfer chain: B. hybridus → Polyporus hybridus (Berkeley & Broome c.1860) → Poria hybrida (Cooke 1886) → heterotypic synonym of F. vaillantii. This is a brown-rot polypore of coniferous timber in order Polyporales — taxonomically remote from Serpula lacrymans (order Boletales). Previous KG entry suggesting Donkioporia expansa was INCORRECT — D. expansa has a separate basionym (Boletus expansus Desm. 1823). SUBSTRATE PARADOX: F. vaillantii is a conifer specialist, but ships used mixed timbers (oak frames + pine/fir decking/masts/joinery). Sowerby never explicitly says B. hybridus was on oak — just on the ship. The B98 full species list (~25 species) confirms B. lachrymans was 'seldom' found. Sowerby's own draft (B98 p.16) explicitly distinguishes ship fungi (B. hybridus + Xylostroma) from B. lachrymans 'found more in damp building on shore.' REMAINING OPEN: no molecular study has re-examined Sowerby's specimens or tested historic ship timber. The synonymy rests on morphological convention (Petersen 1983), not molecular verification."
+      "status": "SUBSTANTIALLY ANSWERED (April 2026). Boletus hybridus Sowerby (EF Tab. 289) = Fibroporia vaillantii (DC.) Parmasto 1968, confirmed by GBIF, MycoDB, Index Fungorum, MycoBank, and Petersen (1983) Mycotaxon 17: 148-230. Transfer chain: B. hybridus → Polyporus hybridus (Berkeley & Broome c.1860) → Poria hybrida (Cooke 1886) → heterotypic synonym of F. vaillantii. This is a brown-rot polypore of coniferous timber in order Polyporales — taxonomically remote from Serpula lacrymans (order Boletales). Previous KG entry suggesting Donkioporia expansa was INCORRECT — D. expansa has a separate basionym (Boletus expansus Desm. 1823). SUBSTRATE PARADOX: F. vaillantii is a conifer specialist, but ships used mixed timbers (oak frames + pine/fir decking/masts/joinery). Sowerby never explicitly says B. hybridus was on oak — just on the ship. The B98 full species list (~25 species) confirms B. lachrymans was 'seldom' found. Sowerby's own draft (B98 p.16) explicitly distinguishes ship fungi (B. hybridus + Xylostroma) from B. lachrymans 'found more in damp building on shore.' REMAINING OPEN: no molecular study has re-examined Sowerby's specimens or tested historic ship timber. The synonymy rests on morphological convention (Petersen 1983), not molecular verification.",
+      "orphan_rationale": "research_log_entry"
     },
     {
       "id": "q13",
       "question": "What do Sowerby's field notebooks (NHM B96, 47 pages) and rough notes (B97, 152 pages) contain beyond the formal correspondence?",
       "significance": "ANSWERED (April 2026). All documents fully read and analyzed.",
-      "status": "ANSWERED. Key findings: (1) B96 field notebook contains NO species identifications — Sowerby identified fungi retrospectively in London, not in the field. Contains travel diary, timber stacking sketches, tannin notes, Harmattan wind observation. (2) B97 earliest QC draft shows uncertainty: 'perhaps Boletus hybridus' and 'M. Lachrymans Dry rot?' with question mark. Contains humidity-fungi scale, destructiveness ranking, financial records, and categorized dockyard fungi list. (3) B98 contains the full ~25 species inventory (vs 4 in formal report), Sowerby's own two-organism distinction, and the resolved page 57 textual variant. (4) B95 reveals Knowles initiated the commission, Lukin's heating method was overridden by Admiralty, HMS Vigo also rotted under Lukin's plan, and Lukin asked whether QC was built of 'American Timber.'"
+      "status": "ANSWERED. Key findings: (1) B96 field notebook contains NO species identifications — Sowerby identified fungi retrospectively in London, not in the field. Contains travel diary, timber stacking sketches, tannin notes, Harmattan wind observation. (2) B97 earliest QC draft shows uncertainty: 'perhaps Boletus hybridus' and 'M. Lachrymans Dry rot?' with question mark. Contains humidity-fungi scale, destructiveness ranking, financial records, and categorized dockyard fungi list. (3) B98 contains the full ~25 species inventory (vs 4 in formal report), Sowerby's own two-organism distinction, and the resolved page 57 textual variant. (4) B95 reveals Knowles initiated the commission, Lukin's heating method was overridden by Admiralty, HMS Vigo also rotted under Lukin's plan, and Lukin asked whether QC was built of 'American Timber.'",
+      "orphan_rationale": "research_log_entry"
     },
     {
       "id": "q14",
@@ -4909,13 +6258,15 @@
       "suggested_sources": [
         "Navy Board records, ADM series",
         "Lambert's footnotes"
-      ]
+      ],
+      "orphan_rationale": "research_log_entry"
     },
     {
       "id": "q15",
       "question": "Why did the Navy Board deny Sowerby credit for saving the Queen Charlotte?",
       "significance": "PARTIALLY ANSWERED (April 2026). The Jan 1814 payment letter states 'we do not attach to you the merit of having saved the Queen Charlotte.' But Sowerby's account claims she was 'providentially saved by my directions.'",
-      "status": "PARTIALLY ANSWERED. B95 correspondence reveals institutional dynamics: (1) Knowles and Seppings advised Sowerby to submit a memorial for payment — it was their idea, not his. (2) The Admiralty had already overridden Lukin's approach in favour of Sowerby's — the Board may have been managing Lukin's dignity. (3) The Navy Board credited Sowerby for 'seasoning & stowing away Timber' (the generalizable contribution) but not for saving one specific ship (which could have been attributed to the Plymouth repair crew). (4) By 1817, Seppings was asking for Sowerby's advice privately 'up the private stairs' but not paying — suggesting the relationship soured over credit and compensation. Sowerby refused to give further free advice. Pattern: the institution absorbed the expert's contribution while managing the credit attribution to protect hierarchies."
+      "status": "PARTIALLY ANSWERED. B95 correspondence reveals institutional dynamics: (1) Knowles and Seppings advised Sowerby to submit a memorial for payment — it was their idea, not his. (2) The Admiralty had already overridden Lukin's approach in favour of Sowerby's — the Board may have been managing Lukin's dignity. (3) The Navy Board credited Sowerby for 'seasoning & stowing away Timber' (the generalizable contribution) but not for saving one specific ship (which could have been attributed to the Plymouth repair crew). (4) By 1817, Seppings was asking for Sowerby's advice privately 'up the private stairs' but not paying — suggesting the relationship soured over credit and compensation. Sowerby refused to give further free advice. Pattern: the institution absorbed the expert's contribution while managing the credit attribution to protect hierarchies.",
+      "orphan_rationale": "research_log_entry"
     },
     {
       "id": "q16",
@@ -4924,7 +6275,8 @@
       "suggested_sources": [
         "Admiralty dockyards records",
         "Ships' building records for QC (launched 1810)"
-      ]
+      ],
+      "orphan_rationale": "research_log_entry"
     },
     {
       "id": "q17",
@@ -4933,7 +6285,8 @@
       "suggested_sources": [
         "NHM Mycology collections",
         "Sowerby herbarium records"
-      ]
+      ],
+      "orphan_rationale": "research_log_entry"
     },
     {
       "id": "q18",
@@ -4942,7 +6295,8 @@
       "suggested_sources": [
         "Navy Board records on HMS Vigo",
         "Knowles's later writings"
-      ]
+      ],
+      "orphan_rationale": "research_log_entry"
     },
     {
       "id": "q19",
@@ -4952,7 +6306,8 @@
         "DNB / ODNB for Chapman candidates",
         "Britannica 6th edition publication records",
         "Constable's editorial papers"
-      ]
+      ],
+      "orphan_rationale": "research_log_entry"
     },
     {
       "id": "q20",
@@ -4961,7 +6316,8 @@
       "suggested_sources": [
         "Citation analysis of Britannica NATURAL HISTORY article",
         "Hales, Pringle, Hartley reading lists"
-      ]
+      ],
+      "orphan_rationale": "research_log_entry"
     }
   ],
   "institutions": [
@@ -4984,6 +6340,1236 @@
         "1821 — House of Commons Select Committee on Timber (184 pp evidence)",
         "1835 — Select Committee on Timber Duties"
       ]
+    },
+    {
+      "id": "inst_navy_board",
+      "name": "Navy Board",
+      "type": "naval_administration",
+      "wikidata_qid": "Q2891147",
+      "active": "1546-1832",
+      "components": [
+        "Surveyor of the Navy",
+        "Comptroller of the Navy",
+        "Commissioners",
+        "Royal Dockyards"
+      ],
+      "dry_rot_connection": "The institutional locus of the dry rot crisis. The Navy Board commissioned Sowerby's 1812 inspection, awarded him 200 guineas in January 1814 while denying credit for saving the Queen Charlotte, and presided over the failed chemical-cure programme (Reed 1740, Jackson 1767-73, White 1798, charring 1808, Lukin's stove 1812, mineral tar 1820). Surveyors of the Navy in the crisis years: Rule, Henslow, Seppings (1813-1832); Comptrollers: Byam Martin (1815-1831). Commissioners cited in Sowerby B95 correspondence: Hartwell, Legge, T.B. Thompson. Abolished 1832 when its functions were absorbed into the Admiralty.",
+      "key_events_in_kg": [
+        "1812 — commissioned Sowerby's QC inspection",
+        "1813 — fleet-wide dockyard inspections",
+        "1814 — awarded Sowerby 200 guineas while denying credit",
+        "1815-1831 — Byam Martin/Seppings postwar reform programme"
+      ]
+    },
+    {
+      "id": "inst_admiralty",
+      "name": "Board of Admiralty",
+      "type": "naval_administration",
+      "wikidata_qid": "Q2333895",
+      "active": "1628-present (Admiralty Office until 1964)",
+      "dry_rot_connection": "The political and operational head of the Royal Navy during the dry rot crisis. The Admiralty (First Lord and Board) sat above the Navy Board in the chain of command. St Vincent's anti-corruption campaign (1801-1804), which ran down seasoned timber reserves, was an Admiralty-level decision. The Admiralty overrode Lukin's stove-heating method in favour of Sowerby's environmental approach in August 1812. After 1832 absorbed the Navy Board's functions.",
+      "key_events_in_kg": [
+        "1801-04 — St Vincent's First Lordship and timber-reserve drawdown",
+        "1812 — adopted Sowerby's recommendations fleet-wide"
+      ]
+    },
+    {
+      "id": "inst_royal_society",
+      "name": "Royal Society of London",
+      "type": "learned_society",
+      "wikidata_qid": "Q123885",
+      "founded": 1660,
+      "presidencies_in_kg": [
+        {
+          "president": "John Pringle",
+          "period": "1772-1778",
+          "person_id": "per_pringle"
+        },
+        {
+          "president": "Joseph Banks",
+          "period": "1778-1820",
+          "person_id": "per_banks"
+        }
+      ],
+      "dry_rot_connection": "The Royal Society's Philosophical Transactions are the primary scientific corpus searched for early dry rot evidence. The 1823 Britannica claim — that dry rot was first known to the Society 'at some period of Sir John Pringle's presidency' (1772-78) — frames the central historical question. Banks, PRS for 42 years (1778-1820), testified about dry rot in court (Keate v. Adams, 1785) but no Phil Trans articles on the topic appeared during his presidency: knowledge of the disease developed OUTSIDE the Society. Hales 1755 alarm, Mahon 1778 Phil Trans paper, and Mann 1778 are the key Society-adjacent pre-crisis points.",
+      "key_events_in_kg": [
+        "1755 — Hales's alarm at the Society",
+        "1772-1778 — Pringle's presidency (Britannica's terminus a quo)",
+        "1778 — Mahon's Phil Trans paper on dry rot",
+        "1785 — Keate v. Adams (Banks testifies)"
+      ]
+    },
+    {
+      "id": "inst_society_arts",
+      "name": "Society for the Encouragement of Arts, Manufactures and Commerce",
+      "common_name": "Society of Arts (later Royal Society of Arts)",
+      "type": "learned_society",
+      "wikidata_qid": "Q1460885",
+      "founded": 1754,
+      "dry_rot_connection": "Offered a gold medal for a successful method of preventing dry rot in 1783, re-advertised through at least 1789 with escalating incentives. The prize was finally won by A. Bowden in 1818 — 35 years after first offering — per Knowles 1821. The Adelphi (designed by Robert Adam, the Society's headquarters from 1774) was itself reported as suffering from dry rot by Randall 1807. The Society sat alongside the Royal Society as a venue where dry rot was treated as a technical problem awaiting an empirical solution, in contrast to the Royal Society's silence on the topic during Banks's presidency.",
+      "key_events_in_kg": [
+        "1783 — gold medal first offered for a dry rot prevention method",
+        "1789 — prize re-advertised",
+        "1818 — Bowden wins the gold medal"
+      ]
     }
-  ]
+  ],
+  "ships": [
+    {
+      "id": "ship_spencer_1800",
+      "name": "Spencer",
+      "launched": 1800,
+      "rotten": 1802,
+      "recommissioned": 1803,
+      "cause": "Dry rot",
+      "sources": [
+        "src_forest_sea_power"
+      ],
+      "external_urls": {
+        "threedecks": "https://threedecks.org/index.php?display_type=show_ship&id=6839"
+      }
+    },
+    {
+      "id": "ship_albion_1802",
+      "name": "Albion",
+      "gun_rating": 74,
+      "launched": 1802,
+      "rotten": 1806,
+      "cause": "Dry rot",
+      "sources": [
+        "src_forest_sea_power"
+      ],
+      "external_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/HMS_Albion_(1802)"
+      }
+    },
+    {
+      "id": "ship_scepter_1803",
+      "name": "Scepter",
+      "gun_rating": 74,
+      "launched": 1803,
+      "rotten": 1806,
+      "cause": "Teredo",
+      "sources": [
+        "src_forest_sea_power"
+      ],
+      "external_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/HMS_Sceptre_(1802)"
+      }
+    },
+    {
+      "id": "ship_rodney_1809",
+      "name": "Rodney",
+      "gun_rating": 74,
+      "launched": 1809,
+      "rotten": 1812,
+      "cause": "Dry rot",
+      "sources": [
+        "src_forest_sea_power"
+      ],
+      "external_urls": {
+        "threedecks": "https://threedecks.org/index.php?display_type=show_ship&id=6218",
+        "wikipedia": "https://en.wikipedia.org/wiki/HMS_Rodney_(1809)"
+      }
+    },
+    {
+      "id": "ship_dublin_1812",
+      "name": "Dublin",
+      "gun_rating": 74,
+      "launched": 1812,
+      "rotten": 1812,
+      "cause": "Dry rot",
+      "sources": [
+        "src_forest_sea_power"
+      ]
+    },
+    {
+      "id": "ship_queen_charlotte_1810",
+      "name": "Queen Charlotte,",
+      "gun_rating": 110,
+      "launched": 1810,
+      "rotten": 1810,
+      "cause": "Dry rot",
+      "sources": [
+        "src_forest_sea_power",
+        "src_knowles_1821"
+      ],
+      "timber": [
+        "Canada oak",
+        "American pitch pine"
+      ],
+      "linked_event": "evt_hms_queen_charlotte",
+      "notes": "Knowles p.117: Canada oak + American pitch pine. Keel laid Oct 1805, frame Dec 1806, launched May 1810."
+    },
+    {
+      "id": "ship_ajax_1798",
+      "name": "Ajax",
+      "launched": 1798,
+      "rotten": 1802,
+      "cause": "Dry rot",
+      "sources": [
+        "src_forest_sea_power"
+      ],
+      "external_urls": {
+        "threedecks": "https://threedecks.org/index.php?display_type=show_ship&id=2939"
+      },
+      "notes": "Cited in Encyclopaedia Metropolitana"
+    },
+    {
+      "id": "ship_america_1810",
+      "name": "America",
+      "launched": 1810,
+      "rotten": 1814,
+      "cause": "Dry rot",
+      "sources": [
+        "src_forest_sea_power"
+      ],
+      "external_urls": {
+        "threedecks": "https://threedecks.org/index.php?display_type=show_ship&id=3032"
+      }
+    },
+    {
+      "id": "ship_foudroyant_1798",
+      "name": "Foudroyant",
+      "gun_rating": 80,
+      "launched": 1798,
+      "rotten": 1802,
+      "cause": "Dry rot",
+      "sources": [
+        "src_forest_sea_power",
+        "src_1820_lords_timber"
+      ],
+      "external_urls": {
+        "threedecks": "https://threedecks.org/index.php?display_type=show_ship&id=4346",
+        "wikipedia": "https://en.wikipedia.org/wiki/HMS_Foudroyant_(1798)"
+      },
+      "notes": "Cited in Encyclopaedia Metropolitana"
+    },
+    {
+      "id": "ship_la_hogue_1811",
+      "name": "La Hogue",
+      "launched": 1811,
+      "rotten": 1814,
+      "cause": "Dry rot",
+      "sources": [
+        "src_forest_sea_power"
+      ]
+    },
+    {
+      "id": "ship_mulgrave_1812",
+      "name": "Mulgrave",
+      "launched": 1812,
+      "rotten": 1815,
+      "cause": "Dry rot",
+      "sources": [
+        "src_forest_sea_power"
+      ]
+    },
+    {
+      "id": "ship_ocean_1805",
+      "name": "Ocean",
+      "launched": 1805,
+      "rotten": 1811,
+      "cause": "Dry rot",
+      "sources": [
+        "src_forest_sea_power"
+      ]
+    },
+    {
+      "id": "ship_stirling_castle_1812",
+      "name": "Stirling Castle",
+      "launched": 1812,
+      "rotten": 1816,
+      "cause": "Dry rot",
+      "sources": [
+        "src_forest_sea_power"
+      ]
+    },
+    {
+      "id": "ship_blake_1808",
+      "name": "Blake",
+      "launched": 1808,
+      "rotten": 1813,
+      "cause": "Dry rot",
+      "sources": [
+        "src_forest_sea_power"
+      ]
+    },
+    {
+      "id": "ship_devonshire_1812",
+      "name": "Devonshire",
+      "launched": 1812,
+      "rotten": 1817,
+      "cause": "Dry rot",
+      "sources": [
+        "src_forest_sea_power"
+      ],
+      "external_urls": {
+        "threedecks": "https://threedecks.org/index.php?display_type=show_ship&id=6913"
+      }
+    },
+    {
+      "id": "ship_superb_1798",
+      "name": "Superb",
+      "launched": 1798,
+      "rotten": 1809,
+      "cause": "Dry rot",
+      "notes": "Cited in Encyclopaedia Metropolitana",
+      "data_provenance": "navy_dry_rot_database_xlsx_2026_user_curated"
+    },
+    {
+      "id": "ship_achille_1798",
+      "name": "Achille",
+      "launched": 1798,
+      "rotten": 1802,
+      "cause": "Dry rot",
+      "notes": "Cited in Encyclopaedia Metropolitana",
+      "data_provenance": "navy_dry_rot_database_xlsx_2026_user_curated"
+    },
+    {
+      "id": "ship_resolution",
+      "name": "Resolution",
+      "cause": "Dry rot",
+      "notes": "Cited in Encyclopaedia Metropolitana",
+      "data_provenance": "navy_dry_rot_database_xlsx_2026_user_curated"
+    },
+    {
+      "id": "ship_thunderer",
+      "name": "Thunderer",
+      "cause": "Dry rot",
+      "notes": "Cited in Encyclopaedia Metropolitana",
+      "data_provenance": "navy_dry_rot_database_xlsx_2026_user_curated"
+    },
+    {
+      "id": "ship_monarch",
+      "name": "Monarch",
+      "cause": "Dry rot",
+      "notes": "Cited in Encyclopaedia Metropolitana",
+      "data_provenance": "navy_dry_rot_database_xlsx_2026_user_curated"
+    },
+    {
+      "id": "ship_culoden",
+      "name": "Culoden",
+      "cause": "Dry rot",
+      "notes": "Cited in Encyclopaedia Metropolitana",
+      "data_provenance": "navy_dry_rot_database_xlsx_2026_user_curated"
+    },
+    {
+      "id": "ship_ardent",
+      "name": "Ardent",
+      "cause": "Dry rot",
+      "notes": "Cited in Encyclopaedia Metropolitana",
+      "data_provenance": "navy_dry_rot_database_xlsx_2026_user_curated"
+    },
+    {
+      "id": "ship_st_domingo_1809",
+      "name": "St. Domingo",
+      "launched": 1809,
+      "rotten": 1814,
+      "cause": "Dry rot",
+      "notes": "Cited in Encyclopaedia Metropolitana",
+      "data_provenance": "navy_dry_rot_database_xlsx_2026_user_curated"
+    },
+    {
+      "id": "ship_st_teresa",
+      "name": "St Teresa",
+      "gun_rating": 38,
+      "data_provenance": "navy_dry_rot_database_xlsx_2026_user_curated"
+    },
+    {
+      "id": "ship_inflexible",
+      "name": "Inflexible",
+      "gun_rating": 64,
+      "rotten": 1802,
+      "data_provenance": "navy_dry_rot_database_xlsx_2026_user_curated"
+    },
+    {
+      "id": "ship_overyssel",
+      "name": "Overyssel",
+      "gun_rating": 64,
+      "rotten": 1802,
+      "data_provenance": "navy_dry_rot_database_xlsx_2026_user_curated"
+    },
+    {
+      "id": "ship_dictator",
+      "name": "Dictator",
+      "gun_rating": 64,
+      "data_provenance": "navy_dry_rot_database_xlsx_2026_user_curated"
+    },
+    {
+      "id": "ship_haerlem",
+      "name": "Haerlem",
+      "gun_rating": 64,
+      "data_provenance": "navy_dry_rot_database_xlsx_2026_user_curated"
+    },
+    {
+      "id": "ship_dreadnought_1801",
+      "name": "Dreadnought",
+      "gun_rating": 98,
+      "launched": 1801,
+      "recommissioned": 1814,
+      "cause": "Dry rot",
+      "data_provenance": "navy_dry_rot_database_xlsx_2026_user_curated"
+    },
+    {
+      "id": "ship_boyne_1810",
+      "name": "Boyne",
+      "gun_rating": 98,
+      "launched": 1810,
+      "rotten": 1819,
+      "cause": "Dry rot",
+      "data_provenance": "navy_dry_rot_database_xlsx_2026_user_curated"
+    },
+    {
+      "id": "ship_genoa",
+      "name": "Genoa",
+      "rotten": 1823,
+      "cause": "Dry rot",
+      "data_provenance": "navy_dry_rot_database_xlsx_2026_user_curated"
+    },
+    {
+      "id": "ship_rippon",
+      "name": "Rippon",
+      "data_provenance": "navy_dry_rot_database_xlsx_2026_user_curated"
+    },
+    {
+      "id": "ship_lord_nelson",
+      "name": "Lord Nelson",
+      "data_provenance": "navy_dry_rot_database_xlsx_2026_user_curated"
+    },
+    {
+      "id": "ship_howe",
+      "name": "Howe",
+      "gun_rating": 120,
+      "rotten": 1823,
+      "data_provenance": "navy_dry_rot_database_xlsx_2026_user_curated"
+    },
+    {
+      "id": "ship_hawk_1793",
+      "name": "Hawk",
+      "gun_rating": 74,
+      "launched": 1793,
+      "rotten": 1803,
+      "data_provenance": "navy_dry_rot_database_xlsx_2026_user_curated"
+    },
+    {
+      "id": "ship_halifax_1806",
+      "name": "Halifax",
+      "launched": 1806,
+      "rotten": 1812,
+      "cause": "Dry rot",
+      "sources": [
+        "src_knowles_1821"
+      ]
+    },
+    {
+      "id": "ship_cydnus_1813",
+      "name": "Cydnus",
+      "ship_type": "frigate",
+      "launched": 1813,
+      "launched_date": "17 April 1813",
+      "rotten": 1815,
+      "rotten_date": "December 1815",
+      "cause": "Dry rot",
+      "timber": [
+        "Red Pine"
+      ],
+      "cohort": "knowles_1821_ch9",
+      "durability_years": 2.62,
+      "days_in_service": 958,
+      "sources": [
+        "src_knowles_1821"
+      ],
+      "notes": "Knowles 1821 Ch. IX frigate cohort: Red Pine"
+    },
+    {
+      "id": "ship_eurotas_1813",
+      "name": "Eurotas",
+      "ship_type": "frigate",
+      "launched": 1813,
+      "launched_date": "April 1813",
+      "rotten": 1816,
+      "rotten_date": "June 1816",
+      "cause": "Dry rot",
+      "timber": [
+        "Red Pine"
+      ],
+      "cohort": "knowles_1821_ch9",
+      "durability_years": 3.17,
+      "days_in_service": 1157,
+      "sources": [
+        "src_knowles_1821"
+      ],
+      "notes": "Knowles 1821 Ch. IX frigate cohort: Red Pine"
+    },
+    {
+      "id": "ship_niger_1813",
+      "name": "Niger",
+      "ship_type": "frigate",
+      "launched": 1813,
+      "launched_date": "29 May 1813",
+      "rotten": 1816,
+      "rotten_date": "June 1816",
+      "cause": "Dry rot",
+      "timber": [
+        "Red Pine"
+      ],
+      "cohort": "knowles_1821_ch9",
+      "durability_years": 3.01,
+      "days_in_service": 1099,
+      "sources": [
+        "src_knowles_1821"
+      ],
+      "notes": "Knowles 1821 Ch. IX frigate cohort: Red Pine"
+    },
+    {
+      "id": "ship_meander_1813",
+      "name": "Meander",
+      "ship_type": "frigate",
+      "launched": 1813,
+      "launched_date": "13 August 1813",
+      "rotten": 1816,
+      "rotten_date": "December 1816",
+      "cause": "Dry rot",
+      "timber": [
+        "Red Pine"
+      ],
+      "cohort": "knowles_1821_ch9",
+      "durability_years": 3.3,
+      "days_in_service": 1206,
+      "sources": [
+        "src_knowles_1821"
+      ],
+      "notes": "Knowles 1821 Ch. IX frigate cohort: Red Pine"
+    },
+    {
+      "id": "ship_pactolus_1813",
+      "name": "Pactolus",
+      "ship_type": "frigate",
+      "launched": 1813,
+      "launched_date": "14 August 1813",
+      "rotten": 1817,
+      "rotten_date": "July 1817",
+      "cause": "Dry rot",
+      "timber": [
+        "Red Pine"
+      ],
+      "cohort": "knowles_1821_ch9",
+      "durability_years": 3.88,
+      "days_in_service": 1417,
+      "sources": [
+        "src_knowles_1821"
+      ],
+      "notes": "Knowles 1821 Ch. IX frigate cohort: Red Pine"
+    },
+    {
+      "id": "ship_tiber_1813",
+      "name": "Tiber",
+      "ship_type": "frigate",
+      "launched": 1813,
+      "launched_date": "10 November 1813",
+      "rotten": 1818,
+      "rotten_date": "September 1818",
+      "cause": "Dry rot",
+      "timber": [
+        "Red Pine"
+      ],
+      "cohort": "knowles_1821_ch9",
+      "durability_years": 4.81,
+      "days_in_service": 1756,
+      "sources": [
+        "src_knowles_1821"
+      ],
+      "notes": "Knowles 1821 Ch. IX frigate cohort: Red Pine"
+    },
+    {
+      "id": "ship_araxes_1813",
+      "name": "Araxes",
+      "ship_type": "frigate",
+      "launched": 1813,
+      "launched_date": "13 September 1813",
+      "rotten": 1816,
+      "rotten_date": "July 1816",
+      "cause": "Dry rot",
+      "timber": [
+        "Red Pine"
+      ],
+      "cohort": "knowles_1821_ch9",
+      "durability_years": 2.8,
+      "days_in_service": 1022,
+      "sources": [
+        "src_knowles_1821"
+      ],
+      "notes": "Knowles 1821 Ch. IX frigate cohort: Red Pine"
+    },
+    {
+      "id": "ship_tanais_1813",
+      "name": "Tanais",
+      "ship_type": "frigate",
+      "launched": 1813,
+      "launched_date": "27 October 1813",
+      "rotten": 1816,
+      "rotten_date": "May 1816",
+      "cause": "Dry rot",
+      "timber": [
+        "Red Pine"
+      ],
+      "cohort": "knowles_1821_ch9",
+      "durability_years": 2.51,
+      "days_in_service": 917,
+      "sources": [
+        "src_knowles_1821"
+      ],
+      "notes": "Knowles 1821 Ch. IX frigate cohort: Red Pine"
+    },
+    {
+      "id": "ship_tagus_1813",
+      "name": "Tagus",
+      "ship_type": "frigate",
+      "launched": 1813,
+      "launched_date": "14 July 1813",
+      "rotten": 1816,
+      "rotten_date": "June 1816",
+      "cause": "Dry rot",
+      "timber": [
+        "Red Pine"
+      ],
+      "cohort": "knowles_1821_ch9",
+      "durability_years": 2.88,
+      "days_in_service": 1053,
+      "sources": [
+        "src_knowles_1821"
+      ],
+      "notes": "Knowles 1821 Ch. IX frigate cohort: Red Pine"
+    },
+    {
+      "id": "ship_eridanus_1813",
+      "name": "Eridanus",
+      "ship_type": "frigate",
+      "launched": 1813,
+      "launched_date": "1 May 1813",
+      "rotten": 1817,
+      "rotten_date": "June 1817",
+      "cause": "Dry rot",
+      "timber": [
+        "Red Pine"
+      ],
+      "cohort": "knowles_1821_ch9",
+      "durability_years": 4.09,
+      "days_in_service": 1492,
+      "sources": [
+        "src_knowles_1821"
+      ],
+      "notes": "Knowles 1821 Ch. IX frigate cohort: Red Pine"
+    },
+    {
+      "id": "ship_tigris_1813",
+      "name": "Tigris",
+      "ship_type": "frigate",
+      "launched": 1813,
+      "launched_date": "26 June 1813",
+      "rotten": 1817,
+      "rotten_date": "December 1817",
+      "cause": "Dry rot",
+      "timber": [
+        "Red Pine"
+      ],
+      "cohort": "knowles_1821_ch9",
+      "durability_years": 4.44,
+      "days_in_service": 1619,
+      "sources": [
+        "src_knowles_1821"
+      ],
+      "notes": "Knowles 1821 Ch. IX frigate cohort: Red Pine"
+    },
+    {
+      "id": "ship_ister_1813",
+      "name": "Ister",
+      "ship_type": "frigate",
+      "launched": 1813,
+      "launched_date": "14 July 1813",
+      "rotten": 1818,
+      "rotten_date": "August 1818",
+      "cause": "Dry rot",
+      "timber": [
+        "Red Pine"
+      ],
+      "cohort": "knowles_1821_ch9",
+      "durability_years": 5.05,
+      "days_in_service": 1844,
+      "sources": [
+        "src_knowles_1821"
+      ],
+      "notes": "Knowles 1821 Ch. IX frigate cohort: Red Pine"
+    },
+    {
+      "id": "ship_scamander_1813",
+      "name": "Scamander",
+      "ship_type": "frigate",
+      "launched": 1813,
+      "launched_date": "13 July 1813",
+      "rotten": 1816,
+      "rotten_date": "June 1816",
+      "cause": "Dry rot",
+      "timber": [
+        "Red Pine"
+      ],
+      "cohort": "knowles_1821_ch9",
+      "durability_years": 2.89,
+      "days_in_service": 1054,
+      "sources": [
+        "src_knowles_1821"
+      ],
+      "notes": "Knowles 1821 Ch. IX frigate cohort: Red Pine"
+    },
+    {
+      "id": "ship_orontes_1813",
+      "name": "Orontes",
+      "ship_type": "frigate",
+      "launched": 1813,
+      "launched_date": "20 June 1813",
+      "rotten": 1817,
+      "rotten_date": "February 1817",
+      "cause": "Dry rot",
+      "timber": [
+        "Red Pine"
+      ],
+      "cohort": "knowles_1821_ch9",
+      "durability_years": 3.62,
+      "days_in_service": 1322,
+      "sources": [
+        "src_knowles_1821"
+      ],
+      "notes": "Knowles 1821 Ch. IX frigate cohort: Red Pine"
+    },
+    {
+      "id": "ship_euphrates_1813",
+      "name": "Euphrates",
+      "ship_type": "frigate",
+      "launched": 1813,
+      "launched_date": "8 November 1813",
+      "rotten": 1817,
+      "rotten_date": "June 1817",
+      "cause": "Dry rot",
+      "timber": [
+        "Red Pine"
+      ],
+      "cohort": "knowles_1821_ch9",
+      "durability_years": 3.56,
+      "days_in_service": 1301,
+      "sources": [
+        "src_knowles_1821"
+      ],
+      "notes": "Knowles 1821 Ch. IX frigate cohort: Red Pine"
+    },
+    {
+      "id": "ship_hebrus_1813",
+      "name": "Hebrus",
+      "ship_type": "frigate",
+      "launched": 1813,
+      "launched_date": "13 September 1813",
+      "rotten": 1816,
+      "rotten_date": "October 1816",
+      "cause": "Dry rot",
+      "timber": [
+        "White Pine"
+      ],
+      "cohort": "knowles_1821_ch9",
+      "durability_years": 3.05,
+      "days_in_service": 1114,
+      "sources": [
+        "src_knowles_1821"
+      ],
+      "notes": "Knowles 1821 Ch. IX frigate cohort: White Pine"
+    },
+    {
+      "id": "ship_grainicus_1813",
+      "name": "Grainicus",
+      "ship_type": "frigate",
+      "launched": 1813,
+      "launched_date": "25 October 1813",
+      "rotten": 1816,
+      "rotten_date": "October 1816",
+      "cause": "Dry rot",
+      "timber": [
+        "White Pine"
+      ],
+      "cohort": "knowles_1821_ch9",
+      "durability_years": 2.94,
+      "days_in_service": 1072,
+      "sources": [
+        "src_knowles_1821"
+      ],
+      "notes": "Knowles 1821 Ch. IX frigate cohort: White Pine"
+    },
+    {
+      "id": "ship_alpheus_1814",
+      "name": "Alpheus",
+      "ship_type": "frigate",
+      "launched": 1814,
+      "launched_date": "6 April 1814",
+      "rotten": 1816,
+      "rotten_date": "December 1816",
+      "cause": "Dry rot",
+      "timber": [
+        "White Pine"
+      ],
+      "cohort": "knowles_1821_ch9",
+      "durability_years": 2.66,
+      "days_in_service": 970,
+      "sources": [
+        "src_knowles_1821"
+      ],
+      "notes": "Knowles 1821 Ch. IX frigate cohort: White Pine"
+    }
+  ],
+  "aggregate_statistics": {
+    "ships_paid_off_1801_1803": {
+      "n_total": 234,
+      "by_class": {
+        "Very Large Repair": 25,
+        "Large Repair": 67,
+        "Between Middling and Large Repair": 27,
+        "Middling Repair": 45,
+        "Between Small and Middling Repair": 15,
+        "Small Repair": 39,
+        "Very Small Repair": 7,
+        "In good condition": 4,
+        "Fitting": 1,
+        "Refitted": 1,
+        "Uncertain, as they have not been regularly surveyed": 3
+      },
+      "source_id": null,
+      "source_note": "Parliamentary return 1805-000788 (per xlsx attribution)",
+      "supports_event": "evt_st_vincent_timber",
+      "interpretation": "St Vincent's anti-corruption campaign (1801-04) deferred maintenance; the resulting backlog of capital repairs required of laid-up ships is the proximate cause of the post-1805 timber substitution."
+    },
+    "repairs_completed_1801_1803": {
+      "n_total": 94,
+      "by_repair_required": {
+        "Very large repair": 9,
+        "Large Repair": 10,
+        "Between middling and large repair": 5,
+        "Middling repair": 26,
+        "Between small and middling repair": 11,
+        "Small Repair": 29,
+        "Very small repair": 4
+      },
+      "by_repair_given": {
+        "Fitted for a receiving-ship": 3,
+        "Fitted for a prison-ship": 1,
+        "Large repair": 8,
+        "Refit": 18,
+        "Fitted as an hospital-ship": 1,
+        "Fitted as a slop-ship": 1,
+        "Between small and middling repair": 1,
+        "Middling and large repair": 2,
+        "Fitted for temporary service": 3,
+        "Made good defects": 1,
+        "Defects made good": 1,
+        "Middling repair": 6,
+        "Very small repair": 7,
+        "Fitted for Convicts": 1,
+        "Small repair": 22,
+        "Small": 2,
+        "Middling": 2,
+        "Fitted for sea": 3,
+        "Small and middling repair": 3,
+        "Refitted": 8
+      },
+      "downgrade_pairs": [
+        {
+          "required": "Small Repair",
+          "given": "Small repair",
+          "n": 16
+        },
+        {
+          "required": "Middling repair",
+          "given": "Refit",
+          "n": 8
+        },
+        {
+          "required": "Small Repair",
+          "given": "Refitted",
+          "n": 8
+        },
+        {
+          "required": "Middling repair",
+          "given": "Middling repair",
+          "n": 6
+        },
+        {
+          "required": "Very large repair",
+          "given": "Large repair",
+          "n": 5
+        },
+        {
+          "required": "Between small and middling repair",
+          "given": "Small repair",
+          "n": 4
+        },
+        {
+          "required": "Small Repair",
+          "given": "Refit",
+          "n": 4
+        },
+        {
+          "required": "Very small repair",
+          "given": "Very small repair",
+          "n": 4
+        },
+        {
+          "required": "Large Repair",
+          "given": "Large repair",
+          "n": 3
+        },
+        {
+          "required": "Between small and middling repair",
+          "given": "Small and middling repair",
+          "n": 3
+        },
+        {
+          "required": "Very large repair",
+          "given": "Refit",
+          "n": 2
+        },
+        {
+          "required": "Large Repair",
+          "given": "Fitted for a receiving-ship",
+          "n": 2
+        },
+        {
+          "required": "Large Repair",
+          "given": "Refit",
+          "n": 2
+        },
+        {
+          "required": "Between middling and large repair",
+          "given": "Middling and large repair",
+          "n": 2
+        },
+        {
+          "required": "Middling repair",
+          "given": "Small repair",
+          "n": 2
+        },
+        {
+          "required": "Middling repair",
+          "given": "Small",
+          "n": 2
+        },
+        {
+          "required": "Middling repair",
+          "given": "Middling",
+          "n": 2
+        },
+        {
+          "required": "Middling repair",
+          "given": "Fitted for temporary service",
+          "n": 2
+        },
+        {
+          "required": "Between small and middling repair",
+          "given": "Fitted for sea",
+          "n": 2
+        },
+        {
+          "required": "Very large repair",
+          "given": "Fitted for a receiving-ship",
+          "n": 1
+        },
+        {
+          "required": "Very large repair",
+          "given": "Fitted for a prison-ship",
+          "n": 1
+        },
+        {
+          "required": "Large Repair",
+          "given": "Fitted as an hospital-ship",
+          "n": 1
+        },
+        {
+          "required": "Large Repair",
+          "given": "Fitted as a slop-ship",
+          "n": 1
+        },
+        {
+          "required": "Large Repair",
+          "given": "Between small and middling repair",
+          "n": 1
+        },
+        {
+          "required": "Between middling and large repair",
+          "given": "Refit",
+          "n": 1
+        },
+        {
+          "required": "Between middling and large repair",
+          "given": "Fitted for temporary service",
+          "n": 1
+        },
+        {
+          "required": "Between middling and large repair",
+          "given": "Made good defects",
+          "n": 1
+        },
+        {
+          "required": "Middling repair",
+          "given": "Defects made good",
+          "n": 1
+        },
+        {
+          "required": "Middling repair",
+          "given": "Very small repair",
+          "n": 1
+        },
+        {
+          "required": "Middling repair",
+          "given": "Fitted for Convicts",
+          "n": 1
+        },
+        {
+          "required": "Middling repair",
+          "given": "Fitted for sea",
+          "n": 1
+        },
+        {
+          "required": "Between small and middling repair",
+          "given": "Refit",
+          "n": 1
+        },
+        {
+          "required": "Between small and middling repair",
+          "given": "Very small repair",
+          "n": 1
+        },
+        {
+          "required": "Small Repair",
+          "given": "Very small repair",
+          "n": 1
+        }
+      ],
+      "source_id": null,
+      "source_note": "Parliamentary return 1805-000788 (per xlsx attribution)",
+      "supports_event": "evt_st_vincent_timber",
+      "interpretation": "Repair-required vs. repair-given pairs document the systematic downgrading of ship maintenance during and after the St Vincent administration."
+    },
+    "lower_canada_timber_exports_1802_1810": {
+      "headers": [
+        "Years",
+        "Oak Timber (pieces)",
+        "Pine Timber (pieces)",
+        "Walnut, Cherry-tree, &c. (pieces)",
+        "Oak Staves, and Heading (pieces)",
+        "Stave Ends (pieces)",
+        "Masts (pieces)",
+        "Bowsprits (pieces)",
+        "Pine Spars (pieces)",
+        "Handspikes (pieces)",
+        "Lathwood (pieces)",
+        "Red Cedar (pieces)",
+        "Oak Plank (Pieces)",
+        "Oak Plank (Feet)",
+        "Pine Boards and Plank (pieces)",
+        "Scantling",
+        "Oars (pieces)",
+        "Hoops (pieces)",
+        "Shingles (pieces)",
+        "Pot and Pearl Ashes (Casks)",
+        "Pot and Pearl Ashes (Cwt.)",
+        null,
+        null,
+        null
+      ],
+      "table": [
+        {
+          "Years": 1802.0,
+          "Oak Timber (pieces)": 1607.0,
+          "Pine Timber (pieces)": 1035.0,
+          "Walnut, Cherry-tree, &c. (pieces)": null,
+          "Oak Staves, and Heading (pieces)": 586949.0,
+          "Stave Ends (pieces)": 10113.0,
+          "Masts (pieces)": 34.0,
+          "Bowsprits (pieces)": null,
+          "Pine Spars (pieces)": 124.0,
+          "Handspikes (pieces)": null,
+          "Lathwood (pieces)": null,
+          "Red Cedar (pieces)": 8.0,
+          "Oak Plank (Pieces)": null,
+          "Oak Plank (Feet)": 2000.0,
+          "Pine Boards and Plank (pieces)": 104735.0,
+          "Scantling": null,
+          "Oars (pieces)": 401.0,
+          "Hoops (pieces)": 57250.0,
+          "Shingles (pieces)": 78000.0,
+          "Pot and Pearl Ashes (Casks)": null,
+          "Pot and Pearl Ashes (Cwt.)": 16920.0
+        },
+        {
+          "Years": 1803.0,
+          "Oak Timber (pieces)": 3819.0,
+          "Pine Timber (pieces)": 3153.0,
+          "Walnut, Cherry-tree, &c. (pieces)": 93.0,
+          "Oak Staves, and Heading (pieces)": 763968.0,
+          "Stave Ends (pieces)": 830.0,
+          "Masts (pieces)": 283.0,
+          "Bowsprits (pieces)": null,
+          "Pine Spars (pieces)": 254.0,
+          "Handspikes (pieces)": 18354.0,
+          "Lathwood (pieces)": null,
+          "Red Cedar (pieces)": null,
+          "Oak Plank (Pieces)": 680.0,
+          "Oak Plank (Feet)": null,
+          "Pine Boards and Plank (pieces)": 124197.0,
+          "Scantling": 6833.0,
+          "Oars (pieces)": 618.0,
+          "Hoops (pieces)": 92875.0,
+          "Shingles (pieces)": 34150.0,
+          "Pot and Pearl Ashes (Casks)": 5147.0,
+          "Pot and Pearl Ashes (Cwt.)": null
+        },
+        {
+          "Years": 1804.0,
+          "Oak Timber (pieces)": 4229.0,
+          "Pine Timber (pieces)": 873.0,
+          "Walnut, Cherry-tree, &c. (pieces)": 11.0,
+          "Oak Staves, and Heading (pieces)": 1123958.0,
+          "Stave Ends (pieces)": 836.0,
+          "Masts (pieces)": 115.0,
+          "Bowsprits (pieces)": null,
+          "Pine Spars (pieces)": 60.0,
+          "Handspikes (pieces)": 12713.0,
+          "Lathwood (pieces)": null,
+          "Red Cedar (pieces)": null,
+          "Oak Plank (Pieces)": 135.0,
+          "Oak Plank (Feet)": null,
+          "Pine Boards and Plank (pieces)": 78391.0,
+          "Scantling": 6156.0,
+          "Oars (pieces)": 836.0,
+          "Hoops (pieces)": 109800.0,
+          "Shingles (pieces)": 4000.0,
+          "Pot and Pearl Ashes (Casks)": 6273.0,
+          "Pot and Pearl Ashes (Cwt.)": null
+        },
+        {
+          "Years": 1805.0,
+          "Oak Timber (pieces)": 4535.0,
+          "Pine Timber (pieces)": 896.0,
+          "Walnut, Cherry-tree, &c. (pieces)": null,
+          "Oak Staves, and Heading (pieces)": 1043994.0,
+          "Stave Ends (pieces)": 17832.0,
+          "Masts (pieces)": 103.0,
+          "Bowsprits (pieces)": 21.0,
+          "Pine Spars (pieces)": 141.0,
+          "Handspikes (pieces)": 11174.0,
+          "Lathwood (pieces)": null,
+          "Red Cedar (pieces)": 571.0,
+          "Oak Plank (Pieces)": 369.0,
+          "Oak Plank (Feet)": null,
+          "Pine Boards and Plank (pieces)": 42220.0,
+          "Scantling": null,
+          "Oars (pieces)": 188.0,
+          "Hoops (pieces)": 119625.0,
+          "Shingles (pieces)": 3000.0,
+          "Pot and Pearl Ashes (Casks)": 7925.0,
+          "Pot and Pearl Ashes (Cwt.)": null
+        },
+        {
+          "Years": 1806.0,
+          "Oak Timber (pieces)": 8178.0,
+          "Pine Timber (pieces)": 2130.0,
+          "Walnut, Cherry-tree, &c. (pieces)": 287.0,
+          "Oak Staves, and Heading (pieces)": 1808234.0,
+          "Stave Ends (pieces)": 13688.0,
+          "Masts (pieces)": 333.0,
+          "Bowsprits (pieces)": 22.0,
+          "Pine Spars (pieces)": 189.0,
+          "Handspikes (pieces)": 1604.0,
+          "Lathwood (pieces)": 1778.0,
+          "Red Cedar (pieces)": 201.0,
+          "Oak Plank (Pieces)": 885.0,
+          "Oak Plank (Feet)": null,
+          "Pine Boards and Plank (pieces)": 66116.0,
+          "Scantling": 2880.0,
+          "Oars (pieces)": 207.0,
+          "Hoops (pieces)": 140000.0,
+          "Shingles (pieces)": 16000.0,
+          "Pot and Pearl Ashes (Casks)": 10717.0,
+          "Pot and Pearl Ashes (Cwt.)": null
+        },
+        {
+          "Years": 1807.0,
+          "Oak Timber (pieces)": 11195.0,
+          "Pine Timber (pieces)": 3333.0,
+          "Walnut, Cherry-tree, &c. (pieces)": 738.0,
+          "Oak Staves, and Heading (pieces)": 1783890.0,
+          "Stave Ends (pieces)": 47810.0,
+          "Masts (pieces)": 973.0,
+          "Bowsprits (pieces)": 90.0,
+          "Pine Spars (pieces)": 315.0,
+          "Handspikes (pieces)": 2064.0,
+          "Lathwood (pieces)": 11579.0,
+          "Red Cedar (pieces)": null,
+          "Oak Plank (Pieces)": 1274.0,
+          "Oak Plank (Feet)": null,
+          "Pine Boards and Plank (pieces)": 106663.0,
+          "Scantling": 4251.0,
+          "Oars (pieces)": 88.0,
+          "Hoops (pieces)": 88250.0,
+          "Shingles (pieces)": 29000.0,
+          "Pot and Pearl Ashes (Casks)": 13215.0,
+          "Pot and Pearl Ashes (Cwt.)": null
+        },
+        {
+          "Years": 1808.0,
+          "Oak Timber (pieces)": 12372.0,
+          "Pine Timber (pieces)": 14510.0,
+          "Walnut, Cherry-tree, &c. (pieces)": 182.0,
+          "Oak Staves, and Heading (pieces)": 1824861.0,
+          "Stave Ends (pieces)": 62453.0,
+          "Masts (pieces)": 3994.0,
+          "Bowsprits (pieces)": 373.0,
+          "Pine Spars (pieces)": 1612.0,
+          "Handspikes (pieces)": 4144.0,
+          "Lathwood (pieces)": 130915.0,
+          "Red Cedar (pieces)": 7.0,
+          "Oak Plank (Pieces)": 209.0,
+          "Oak Plank (Feet)": null,
+          "Pine Boards and Plank (pieces)": 194467.0,
+          "Scantling": 2426.0,
+          "Oars (pieces)": 6723.0,
+          "Hoops (pieces)": 215500.0,
+          "Shingles (pieces)": 60500.0,
+          "Pot and Pearl Ashes (Casks)": 30830.0,
+          "Pot and Pearl Ashes (Cwt.)": null
+        },
+        {
+          "Years": 1809.0,
+          "Oak Timber (pieces)": 10540.0,
+          "Pine Timber (pieces)": 24102.0,
+          "Walnut, Cherry-tree, &c. (pieces)": 257.0,
+          "Oak Staves, and Heading (pieces)": 3255335.0,
+          "Stave Ends (pieces)": 27467.0,
+          "Masts (pieces)": 3080.0,
+          "Bowsprits (pieces)": 271.0,
+          "Pine Spars (pieces)": 2638.0,
+          "Handspikes (pieces)": 6848.0,
+          "Lathwood (pieces)": 154967.0,
+          "Red Cedar (pieces)": null,
+          "Oak Plank (Pieces)": null,
+          "Oak Plank (Feet)": null,
+          "Pine Boards and Plank (pieces)": 282099.0,
+          "Scantling": 227.0,
+          "Oars (pieces)": 8596.0,
+          "Hoops (pieces)": 134850.0,
+          "Shingles (pieces)": 3900.0,
+          "Pot and Pearl Ashes (Casks)": 33782.0,
+          "Pot and Pearl Ashes (Cwt.)": null
+        }
+      ],
+      "source_id": "src_canada_returns_1812",
+      "supports_event": null,
+      "interpretation": "Documents the wartime substitution: oak timber pieces 5x increase 1802-1806; staves 3x increase. The Lower Canada timber export record IS the visible signature of the timber strand of the assemblage."
+    }
+  }
 }

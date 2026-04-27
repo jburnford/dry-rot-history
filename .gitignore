@@ -21,3 +21,7 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+
+# KG backups — keep local only
+*.bak.*
+*.json.bak*

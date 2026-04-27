@@ -38,6 +38,18 @@ for evt in kg.get('events', []):
             'type': 'event',
         })
 
+# Extract years from ships (use rotten year only — per user direction)
+for ship in kg.get('ships', []):
+    year = ship.get('rotten')
+    if year and isinstance(year, int) and 1660 <= year <= 1880:
+        if year not in year_events:
+            year_events[year] = []
+        year_events[year].append({
+            'id': ship['id'],
+            'label': ship.get('name', '')[:60],
+            'type': 'ship',
+        })
+
 # Select which years to show (only years with evidence, plus key milestones)
 all_years = sorted(year_events.keys())
 # Add some gap years for context
@@ -58,6 +70,7 @@ COLORS = {
     'event': '#FF9DA7',
     'organism': '#BAB0AC',
     'negative': '#666666',
+    'ship': '#C44E52',
 }
 
 def source_color(src):
@@ -599,6 +612,62 @@ for evt in kg.get('events', []):
             'length': 60,
         })
 
+# Ship nodes — rendered at rotten year only (per user direction)
+for ship in kg.get('ships', []):
+    sid = ship['id']
+    rotten = ship.get('rotten')
+    if not rotten or not isinstance(rotten, int) or rotten < 1660 or rotten > 1880:
+        # Ships without a known rotten year are still added as nodes (no timeline marker)
+        nodes.append({
+            'id': sid,
+            'label': ship.get('name', sid),
+            'shape': 'triangle',
+            'color': {'background': COLORS['ship'], 'border': COLORS['ship'],
+                      'highlight': {'background': '#fff', 'border': COLORS['ship']}},
+            'font': {'color': '#ffffff', 'size': 9},
+            'nodeType': 'ship',
+            'size': 10,
+            'mass': 1,
+            'title': f"{ship.get('name','?')}\n{ship.get('cause','')}\nLaunched: {ship.get('launched','?')} | Rotten: {ship.get('rotten') or ship.get('rotten_text','?')}\n{('Cohort: '+ship['cohort']) if ship.get('cohort') else ''}",
+        })
+        node_ids.add(sid)
+        continue
+
+    ship_x = year_x.get(rotten)
+    label = ship.get('name', sid)
+    if ship.get('gun_rating'):
+        label = f"{label} ({ship['gun_rating']})"
+    durability = f"\nDurability: {ship['durability_years']} yrs" if ship.get('durability_years') else ''
+    cohort = f"\nCohort: {ship['cohort']}" if ship.get('cohort') else ''
+    timber = f"\nTimber: {', '.join(ship['timber'])}" if ship.get('timber') else ''
+    ship_node = {
+        'id': sid,
+        'label': label,
+        'shape': 'triangle',
+        'color': {'background': COLORS['ship'], 'border': COLORS['ship'],
+                  'highlight': {'background': '#fff', 'border': COLORS['ship']}},
+        'font': {'color': '#ffffff', 'size': 9},
+        'nodeType': 'ship',
+        'size': 10,
+        'mass': 1,
+        'title': f"{ship.get('name','?')}{(' ('+str(ship['gun_rating'])+' guns)') if ship.get('gun_rating') else ''}\n{ship.get('cause','')}\nLaunched {ship.get('launched','?')} → rotten {rotten}{durability}{cohort}{timber}",
+    }
+    if ship_x is not None:
+        ship_node['x'] = ship_x
+        ship_node['fixed'] = {'x': True, 'y': False}
+    nodes.append(ship_node)
+    node_ids.add(sid)
+
+    yr_key = f'year_{rotten}'
+    if yr_key in node_ids:
+        edges.append({
+            'from': sid,
+            'to': yr_key,
+            'color': {'color': 'rgba(196,78,82,0.3)'},
+            'width': 2,
+            'length': 50,
+        })
+
 # === Build rich edges ===
 
 # 1. Person -> Source edges (from key_works fields)
@@ -701,6 +770,35 @@ rel_colors = {
     'TREATISE_ON': 'rgba(242,142,43,0.55)',
     'OBSERVES_TIMBER_DECAY': 'rgba(89,161,79,0.5)',
     'POLICY_OF': 'rgba(225,87,89,0.5)',
+    # Added 2026-04-27 with cleanup pass
+    'AUTHORED': 'rgba(118,183,178,0.55)',
+    'OFFICIAL_RECORD': 'rgba(176,122,161,0.55)',
+    'MEMBER_OF': 'rgba(255,255,255,0.18)',
+    'PRESIDED_OVER': 'rgba(225,87,89,0.55)',
+    'SERVED_AS': 'rgba(118,183,178,0.5)',
+    'CONSULTED_FOR': 'rgba(89,161,79,0.4)',
+    'AWARDED_BY': 'rgba(237,201,72,0.6)',
+    'HAD_DRY_ROT': 'rgba(196,78,82,0.45)',
+    'BUILT_OF': 'rgba(242,142,43,0.5)',
+    'DOCUMENTED_IN': 'rgba(78,121,167,0.4)',
+    'DOCUMENTED_AS': 'rgba(78,121,167,0.45)',
+    'SUPPORTS': 'rgba(46,204,113,0.5)',
+    'DEFENDANT_IN': 'rgba(225,87,89,0.5)',
+    'DESCRIBES': 'rgba(237,201,72,0.5)',
+    'CHAIRED': 'rgba(176,122,161,0.55)',
+    'APPLIED_TO_TIMBER': 'rgba(242,142,43,0.5)',
+    'APPLIED_TO_SHIPS': 'rgba(196,78,82,0.5)',
+    'DURING': 'rgba(255,255,255,0.2)',
+    'ESTABLISHED_FRAMEWORK': 'rgba(176,122,161,0.5)',
+    'INVOLVED_IN': 'rgba(118,183,178,0.4)',
+    'SPOKE_IN_PARLIAMENT': 'rgba(225,87,89,0.5)',
+    'CONTINUED_FROM': 'rgba(118,183,178,0.3)',
+    'DESCRIBED_BEHAVIOUR': 'rgba(237,201,72,0.55)',
+    'DOCUMENTS_AS_COMMON_IN_ENGLAND': 'rgba(89,161,79,0.5)',
+    'DOCUMENTS_EARLIEST_OBSERVATION': 'rgba(89,161,79,0.55)',
+    'REFERENCES': 'rgba(176,122,161,0.4)',
+    'USES_TERM_METAPHORICALLY': 'rgba(242,142,43,0.65)',
+    'PRODUCED_BY_MEMBER_OF': 'rgba(225,87,89,0.4)',
 }
 
 for rel in kg.get('relationships', []):
@@ -899,6 +997,7 @@ n_people = sum(1 for n in nodes if n.get('nodeType') == 'person')
 n_sources = sum(1 for n in nodes if n.get('nodeType') == 'source')
 n_events = sum(1 for n in nodes if n.get('nodeType') == 'event')
 n_years = sum(1 for n in nodes if n.get('nodeType') == 'year')
+n_ships = sum(1 for n in nodes if n.get('nodeType') == 'ship')
 
 # Generate HTML
 html = f'''<!DOCTYPE html>
@@ -1060,6 +1159,7 @@ html = f'''<!DOCTYPE html>
             <div class="stat-item"><span class="label">People</span><span class="value">{n_people}</span></div>
             <div class="stat-item"><span class="label">Sources</span><span class="value">{n_sources}</span></div>
             <div class="stat-item"><span class="label">Events</span><span class="value">{n_events}</span></div>
+            <div class="stat-item"><span class="label">Ships</span><span class="value">{n_ships}</span></div>
             <div class="stat-item"><span class="label">Connections</span><span class="value">{len(edges)}</span></div>
 
             <h3>Controls</h3>
@@ -1213,6 +1313,6 @@ with open(out_path, 'w') as f:
     f.write(html)
 
 print(f"Generated {out_path}")
-print(f"  {n_years} years, {n_people} people, {n_sources} sources, {n_events} events")
+print(f"  {n_years} years, {n_people} people, {n_sources} sources, {n_events} events, {n_ships} ships")
 print(f"  {len(edges)} edges")
 print(f"  Year range: {display_years[0]}-{display_years[-1]}")
